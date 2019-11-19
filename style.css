@@ -1,0 +1,127 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: #0065a8;
+    position: relative;
+    top: 0;
+    width: 100%;
+  
+  }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+}
+
+.navbar a:hover{
+    background-color: #42515c;
+}
+
+.bodyPage {
+    position: relative;
+}
+
+/*
+*  This section styles weather specific elements on the homepage.
+*/
+.wx {
+    position: relative;
+    width: 270px;
+    float: right;
+    font-size: 14px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+}
+
+.wx span:hover {
+    background-color: #b5bfc7;
+}
+
+#lowTemp {
+    color: #2363c4;
+}
+
+#highTemp {
+    color: #9c1e1e;
+}
+
+#wind {
+    color: #166327;
+}
+#sunrise {
+    color: #96761e;
+}
+
+#sunset {
+    color: #5a149b;
+}
+
+/*
+*  This section styles body specific elements.
+*/
+body {
+    background-color: #a0a0a0;
+}
+/*
+*  This section deals with footer specific styling.
+*/
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 80px;
+    width: 100%;
+    color: #e6e6e6;
+    background-color: #0065a8;
+    text-align: center;
+    font-size: 17px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+/*
+.footer a {
+    float: center;
+    
+  
+    text-align: center;
+    padding: 12px 12px;
+  
+}
+*/
+/*
+*  This section has resume specific styling.
+*/
+.resumeText {
+    font-size: 18px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+}
+#pdfImg {
+    padding: 7px;
+}
+/*
+*  This section has blog specific styling.
+*/
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+
+/*
+*  This section resizes the menu for smaller screen sizes (mobile).
+*/
+@media screen and (max-width: 830px) {
+    .navbar a {
+       float: none;
+       display: block; 
+    }
+}
+

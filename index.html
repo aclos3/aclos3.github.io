@@ -1,36 +1,68 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Andrew Clos</title>
-		<link rel = "stylesheet" type ="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Allow me to introduce myself!</h1>
-				<p>Hello and welcome to my website. My name is Andrew Clos and I live in Newport, OR. I graduated from 
-				the University of Washington in 2008 with a BS in Chemical Oceanography.  This led to a my first career with the National Oceanic and
-				Atmospheric Administration (NOAA) where I worked as a contractor and then served as a NOAA Corps Officer until early 2019.
-				In addition to deck watch officer duties (navigating ships, managing personnel), I specialized in the making nautical charts.
-				Utilizing multibeam echosounders and sophisticated positioning systems, we could create high resolution bathymetric plots of the
-				sea floor.  </p>
-				<p>I am looking forward to this career change and would love to learn about A.I. and apply that to autonomous vessels that collect data at sea.  However, as I move through the program I will keep a very open mind and may find a completely different passion within the field.
-				In my free time I like to work on classic cars, ski, go camping, play frisbee. </p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:aclos3@gmail.com">email</a></li>
-        		<li><a href="https://github.com/aclos3">github.com/aclos3</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang = "en">
+    <head>
+        <title>Andrew Clos Welcomes You!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/e41acd4793.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <div class="navbar">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="resume.html"><i class="far fa-file"></i> Resume</a>
+                <a href="photos.html"><i class="fas fa-camera"></i> Photography</a>
+                <a href="hobbies.html"><i class="fas fa-bicycle"></i> Hobbies</a>
+                <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+        
+        </div>
+         
+        <div class="bodyPage">
+            <p class="introText">Test Text</p>
+        </div>
+
+        <div class = "wx">
+                       
+                <!--FORM TO SUBMIT USER DATA-->
+                <form>
+                    <h4 id="rcvd">Current Weather In.....</h3>
+                    <fieldset>
+                        <legend id="legend"></legend>
+                        Current Temperature (F): 
+                        <span id="currTemp"></span><br>
+                        Daily High Temp (F): 
+                        <span id="highTemp"></span><br>
+                        Daily Low Temp (F): 
+                        <span id="lowTemp"></span><br>
+                        Humidity (%): 
+                        <span id="humid"></span><br>
+                        Wind Speed (mph): 
+                        <span id="wind"></span><br>
+                        Rain last hour (in): 
+                        <span id="rainHr"></span><br>
+                        Rain last 3 hours (in): 
+                        <span id="rain3"></span><br>
+                        Sunrise (local time): 
+                        <span id="sunrise"></span><br>
+                        Sunset (local time): 
+                        <span id="sunset"></span><br>
+                        Try Your Zipcode: <input name="city" type="text" id="zipCity" size="2">
+                        <input name="submit" type="submit" id="sub">
+                    </fieldset>
+                </form>
+        </div>
+
+        <div class="footer">
+            <p id="title">Contact Me Via:</p>
+                <a href="#"><i class="fas fa-envelope-square"></i>  Email</a>
+                <a href="#"><i class="fab fa-linkedin"></i>  LinkedIn</a>
+                <a href="#"><i class="fab fa-facebook-square"></i>  Facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i>  Instagram</a>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+    
 </html>
