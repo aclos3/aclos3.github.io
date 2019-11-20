@@ -1,12 +1,57 @@
+/*
+*  This section makes the header and footer stay on the top and bottom of the page.
+*/
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #a0a0a0;
+    background-image: url("bck.jpg");
+    background-size: 100%;
+}
+
+.cont {
+
+    min-height: 100%;
+    margin: 0 auto -50px;
+}
 
 .navbar {
     overflow: hidden;
-    background-color: #0065a8;
-    position: relative;
+    background-color: #9292af;
     top: 0;
     width: 100%;
-  
+    
   }
+
+ .bodyPage {
+     padding-left: 25px;
+     overflow: auto;
+ }
+ .push{
+    height: 50px;
+}
+ .footer {
+     width: 100%;
+     height: 50px;
+     text-align: center;
+     color: #e6e6e6;
+     background-color: #9292af;
+     /*background-color: #0065a8; */
+     font-size: 15px;
+     font-family: Verdana, 'Times New Roman', Times, serif;
+ }
+
+ .clink {
+     padding-left: 40px;
+     padding-right: 40px;
+     font-size: 17px;
+
+     color: #e6e6e6;
+ }
+ .clink:hover {
+    background-color: #9e6315;
+    
+ }
 
 .navbar a {
     float: left;
@@ -19,21 +64,49 @@
     font-family: Verdana, 'Times New Roman', Times, serif;
 }
 
-.navbar a:hover{
+.active1 {
     background-color: #42515c;
 }
+.navbar a:hover{
+    background-color: #9e6315;
+    
+}
 
-.bodyPage {
-    position: relative;
+/*
+*  This section has homepage specific styling.
+*/
+.introText {
+    float:left;
+    font-size: 20px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #98c1ff;
+} 
+#myName {
+    font-size: 60px;
+}
+#myTag {
+    font-size: 14px;
+}
+
+#actualPic {
+    position: absolute;
+    width: 27%;
+    height: auto;
+    left: 0px;
+    bottom: 65px;
+    max-height: 509px;
+    border-style: solid;
+    border-width: 2px;
+     
 }
 
 /*
 *  This section styles weather specific elements on the homepage.
 */
 .wx {
-    position: relative;
+    float:right;
     width: 270px;
-    float: right;
+    color: #e6e6e6;
     font-size: 14px;
     font-family: Verdana, 'Times New Roman', Times, serif;
 }
@@ -43,77 +116,62 @@
 }
 
 #lowTemp {
-    color: #2363c4;
+    color: #7aa3df;
 }
 
 #highTemp {
-    color: #9c1e1e;
+    color: #e77a7a;
 }
 
 #wind {
-    color: #166327;
+    color: #4e9e60;
 }
 #sunrise {
-    color: #96761e;
+    color: #bba15a;
 }
 
 #sunset {
-    color: #5a149b;
+    color: #bb9ada;
 }
 
 /*
-*  This section styles body specific elements.
+*  This section has image credit specific styling.
 */
-body {
-    background-color: #a0a0a0;
-}
-/*
-*  This section deals with footer specific styling.
-*/
-.footer {
+.credit {
     position: absolute;
-    left: 0;
-    bottom: 0;
-
-    height: 80px;
-    width: 100%;
-    color: #e6e6e6;
-    background-color: #0065a8;
-    text-align: center;
-    font-size: 17px;
+    bottom: 65px;
+    right: 0;
+    color: #c2ab8e;
+    font-size: 9px;
     font-family: Verdana, 'Times New Roman', Times, serif;
-    overflow: hidden;
 }
 
-/*
-.footer a {
-    float: center;
-    
-  
-    text-align: center;
-    padding: 12px 12px;
-  
-}
-*/
 /*
 *  This section has resume specific styling.
 */
 .resumeText {
+    color: #e6e6e6;
+    padding-left: 20px;
+    text-decoration: underline;
     font-size: 18px;
     font-family: Verdana, 'Times New Roman', Times, serif;
 }
+.resumeText a{
+    color: #d4d7ff;
+    text-decoration: none;
 #pdfImg {
     padding: 7px;
 }
 /*
 *  This section has blog specific styling.
 */
-.header {
+/*.header {
     padding: 30px;
     font-size: 40px;
     text-align: center;
     background: white;
   }
+*/
 
 /*
 *  This section resizes the menu for smaller screen sizes (mobile).
@@ -122,6 +180,52 @@ body {
     .navbar a {
        float: none;
        display: block; 
+    }
+
+    .footer a{
+        float:none;
+        display: block;
+    }
+    .footer {
+        height: 125px;
+    }
+    .credit {
+        
+        bottom: -3px;
+        right: 0;
+        color: #5f5446;
+    }
+    #myName {
+        font-size: 30px;
+    }
+    #actualPic {
+        width: 200px;;
+        bottom: 100px;
+    }
+    .wx {
+        width: 270px;
+        color: #585858;
+        bottom: 1px;
+        font-size: 12px;
+        font-family: Verdana, 'Times New Roman', Times, serif;
+    }
+    #lowTemp {
+        color: #3c4f6d;
+    }
+    
+    #highTemp {
+        color: #7c4242;
+    }
+    
+    #wind {
+        color: #2d5e38;
+    }
+    #sunrise {
+        color: #816f3d;
+    }
+    
+    #sunset {
+        color: #77628a;
     }
 }
 

@@ -4,65 +4,72 @@
         <title>Andrew Clos Welcomes You!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://kit.fontawesome.com/e41acd4793.js" crossorigin="anonymous"></script>
+        <script defer src="fontawesome-free-5.11.2-web\js\all.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+        <div class ="cont">
+            <header class="navbar">
+                    <a href="index.html" class="active1"><i class="fas fa-home"></i> Home</a>
+                    <a href="resume.html"><i class="far fa-file"></i> Resume</a>
+                    <a href="photos.html"><i class="fas fa-camera"></i> Photography</a>
+                    <a href="hobbies.html"><i class="fas fa-bicycle"></i> Hobbies</a>
+                    <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+            
+            </header>
+                
+            <div class="bodyPage">
+                <div class="introText">
+                    <br><br><span id="hello">Hello, I am</span><br>
+                    <span id="myName"><strong>Andrew Clos</strong></span><br>
+                    <span id="myTag">An Oregon State University Computer Science Engineering Student: Excited to Dive in to the Tech Industry!</span>
+                </div>
+                <div class = "wx">
+                    <!--FORM TO SUBMIT USER DATA-->
+                    <form>
+                        <h4 id="rcvd">Current Weather In.....</h3>
+                        <fieldset>
+                            <legend id="legend"></legend>
+                            Current Temperature (F): 
+                            <span id="currTemp"></span><br>
+                            Daily High Temp (F): 
+                            <span id="highTemp"></span><br>
+                            Daily Low Temp (F): 
+                            <span id="lowTemp"></span><br>
+                            Humidity (%): 
+                            <span id="humid"></span><br>
+                            Wind Speed (mph): 
+                            <span id="wind"></span><br>
+                            Rain last hour (in): 
+                            <span id="rainHr"></span><br>
+                            Rain last 3 hours (in): 
+                            <span id="rain3"></span><br>
+                            Sunrise (local time): 
+                            <span id="sunrise"></span><br>
+                            Sunset (local time): 
+                            <span id="sunset"></span><br>
+                            Try Your Zipcode: <input name="city" type="text" id="zipCity" size="2">
+                            <input name="submit" type="submit" id="sub">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="push"></div>
+        </div>
         
-        <div class="navbar">
-                <a href="index.html"><i class="fas fa-home"></i> Home</a>
-                <a href="resume.html"><i class="far fa-file"></i> Resume</a>
-                <a href="photos.html"><i class="fas fa-camera"></i> Photography</a>
-                <a href="hobbies.html"><i class="fas fa-bicycle"></i> Hobbies</a>
-                <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+        <footer class="footer">     
+            <img src="portrait.jpg" alt="Portrait Photo" id="actualPic">    
+            <div class = "credit">Photo by Jason Leung on Unsplash</div>
+                <span>Contact Me:</span><br>
+                    <a href="mailto: aclos3@gmail.com?Subject=I%20Saw%20Your%20Website" class="clink" id="firstContact"><i class="fas fa-envelope-square"></i>  Email</a>
+                    <a href="https://www.linkedin.com/in/andrewclos" class="clink"><i class="fab fa-linkedin"></i>  LinkedIn</a>
+                    <a href="https://www.facebook.com/andrew.clos.9" class="clink"><i class="fab fa-facebook-square"></i>  Facebook</a>
+                    <a href="https://www.instagram.com/aclos3/" class="clink"><i class="fab fa-instagram"></i>  Instagram</a>
+                    <a href="https://github.com/aclos3/" class="clink"><i class="fab fa-github"></i>  GitHub</a>
+        </footer>
+            
         
-        </div>
-         
-        <div class="bodyPage">
-            <p class="introText">Test Text</p>
-        </div>
-
-        <div class = "wx">
-                       
-                <!--FORM TO SUBMIT USER DATA-->
-                <form>
-                    <h4 id="rcvd">Current Weather In.....</h3>
-                    <fieldset>
-                        <legend id="legend"></legend>
-                        Current Temperature (F): 
-                        <span id="currTemp"></span><br>
-                        Daily High Temp (F): 
-                        <span id="highTemp"></span><br>
-                        Daily Low Temp (F): 
-                        <span id="lowTemp"></span><br>
-                        Humidity (%): 
-                        <span id="humid"></span><br>
-                        Wind Speed (mph): 
-                        <span id="wind"></span><br>
-                        Rain last hour (in): 
-                        <span id="rainHr"></span><br>
-                        Rain last 3 hours (in): 
-                        <span id="rain3"></span><br>
-                        Sunrise (local time): 
-                        <span id="sunrise"></span><br>
-                        Sunset (local time): 
-                        <span id="sunset"></span><br>
-                        Try Your Zipcode: <input name="city" type="text" id="zipCity" size="2">
-                        <input name="submit" type="submit" id="sub">
-                    </fieldset>
-                </form>
-        </div>
-
-        <div class="footer">
-            <p id="title">Contact Me Via:</p>
-                <a href="#"><i class="fas fa-envelope-square"></i>  Email</a>
-                <a href="#"><i class="fab fa-linkedin"></i>  LinkedIn</a>
-                <a href="#"><i class="fab fa-facebook-square"></i>  Facebook</a>
-                <a href="#"><i class="fab fa-instagram"></i>  Instagram</a>
-        </div>
-
         <script src="script.js"></script>
-
     </body>
     
 </html>
