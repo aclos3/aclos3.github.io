@@ -32,7 +32,7 @@ function getWx(zipCode)
     //variable that will receive the contents of what comes back from Open Weather
     var returnWx = "";
     var printWx  = "";
-    var sendForWx = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipOrCity + ",us" + myApiKey; 
+    var sendForWx = "https://api.openweathermap.org/data/2.5/weather?zip=" + zipOrCity + ",us" + myApiKey; 
     
     //perform the asynchronous GET to OpenWeather
     newWx.open("GET", sendForWx, true);
