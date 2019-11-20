@@ -5,8 +5,8 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #a0a0a0;
-    background-image: url("bck.jpg");
     background-size: 100%;
+    background-image: url("images/bck.jpg");
 }
 
 .cont {
@@ -79,7 +79,7 @@ html, body {
     float:left;
     font-size: 20px;
     font-family: Verdana, 'Times New Roman', Times, serif;
-    color: #98c1ff;
+    color: #727288;
 } 
 #myName {
     font-size: 60px;
@@ -90,15 +90,17 @@ html, body {
 
 #actualPic {
     position: absolute;
-    width: 27%;
+    width: auto;
     height: auto;
     left: 0px;
     bottom: 65px;
     max-height: 509px;
     border-style: solid;
+    color: #9292af;
     border-width: 2px;
      
 }
+
 
 /*
 *  This section styles weather specific elements on the homepage.
@@ -106,7 +108,8 @@ html, body {
 .wx {
     float:right;
     width: 270px;
-    color: #e6e6e6;
+    color: #070707;
+    
     font-size: 14px;
     font-family: Verdana, 'Times New Roman', Times, serif;
 }
@@ -116,22 +119,22 @@ html, body {
 }
 
 #lowTemp {
-    color: #7aa3df;
+    color: #5f80b3;
 }
 
 #highTemp {
-    color: #e77a7a;
+    color: #b15b5b;
 }
 
 #wind {
     color: #4e9e60;
 }
 #sunrise {
-    color: #bba15a;
+    color: #8f7a3f;
 }
 
 #sunset {
-    color: #bb9ada;
+    color: #7e6596;
 }
 
 /*
@@ -151,16 +154,34 @@ html, body {
 */
 .resumeText {
     color: #e6e6e6;
-    padding-left: 20px;
     text-decoration: underline;
     font-size: 18px;
     font-family: Verdana, 'Times New Roman', Times, serif;
 }
 .resumeText a{
-    color: #d4d7ff;
+    color: #727288;
     text-decoration: none;
-#pdfImg {
-    padding: 7px;
+}
+
+/*
+*  This section has photo page specific styling.
+*/
+.gridPhoto {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+#photoText	{
+	font-family: Verdana, 'Times New Roman', Times, serif;
+	margin-left: 1.66%;
+    font-size: 23px;
+    color: #727288;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #F1F1F1;
+	width: 38%;
+	padding-bottom: 20px;
 }
 /*
 *  This section has blog specific styling.
@@ -199,33 +220,19 @@ html, body {
         font-size: 30px;
     }
     #actualPic {
-        width: 200px;;
+        width: 200px;
         bottom: 100px;
     }
     .wx {
         width: 270px;
-        color: #585858;
         bottom: 1px;
         font-size: 12px;
         font-family: Verdana, 'Times New Roman', Times, serif;
-    }
-    #lowTemp {
-        color: #3c4f6d;
-    }
-    
-    #highTemp {
-        color: #7c4242;
-    }
-    
-    #wind {
-        color: #2d5e38;
-    }
-    #sunrise {
-        color: #816f3d;
-    }
-    
-    #sunset {
-        color: #77628a;
-    }
 }
 
+@media screen and (max-height: 830px) {
+    #actualPic {
+        width: 200px;
+        bottom: 100px;
+    }
+}
