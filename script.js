@@ -3,9 +3,6 @@
 //  Title: script.js
 //  Description: Adapted heavily for Activity 5 for us on the homepage of my final project.  Uses a GET request with Openweathermap
 
-
-
-
 document.addEventListener('DOMContentLoaded', getWx(97365));
 
 function getWx(zipCode)
@@ -31,7 +28,6 @@ function getWx(zipCode)
     var newWx = new XMLHttpRequest();
     //variable that will receive the contents of what comes back from Open Weather
     var returnWx = "";
-    var printWx  = "";
     var sendForWx = "https://api.openweathermap.org/data/2.5/weather?zip=" + zipOrCity + ",us" + myApiKey; 
     
     //perform the asynchronous GET to OpenWeather
@@ -40,9 +36,9 @@ function getWx(zipCode)
     {
         if(newWx.status < 400 && newWx.status >= 200)
         {
+            //parse the response
             returnWx = JSON.parse(newWx.responseText);
-            printWx = JSON.stringify(newWx.responseText);
-
+            //take the parse response, apply some unit conversions and update the document HTML
             document.getElementById("rcvd").textContent = "Current Weather In " + returnWx.name + ":";
             document.getElementById("legend").textContent = "(lat: " + returnWx.coord.lat + " lon: " + returnWx.coord.lon + ")";
             document.getElementById("currTemp").textContent = ((returnWx.main.temp - 273.15) * 9/5 + 32).toFixed(1);
@@ -98,13 +94,14 @@ function getWx(zipCode)
         }
         else
         {
-            alert("An error has occurred: status not 200-300");
+            //dugging and clearing of variables if an invalid variable was entered.
+
+            //alert("An error has occurred: status not 200-300");
+            document.getElementById("zipCity").textContent = "98125";
+            zipOrCity = zipCode = "97365";
         }
     });
-
     newWx.send();
-    
-
 }
 
 
