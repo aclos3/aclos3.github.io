@@ -1,7 +1,7 @@
 //  Author:  Andrew Clos
-//  Date:  
-//  Title: 
-//  Description: 
+//  Date:  11/20/2019
+//  Title: script.js
+//  Description: Adapted heavily for Activity 5 for us on the homepage of my final project.  Uses a GET request with Openweathermap
 
 
 

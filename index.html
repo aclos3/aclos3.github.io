@@ -15,7 +15,6 @@
                     <a href="photos.html"><i class="fas fa-camera"></i> Photography</a>
                     <a href="hobbies.html"><i class="fas fa-bicycle"></i> Hobbies</a>
                     <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
-            
             </header>
                 
             <div class="bodyPage">
@@ -24,6 +23,7 @@
                     <span id="myName"><strong>Andrew Clos</strong></span><br><br>
                     <span id="myTag">An Oregon State University Computer Science Engineering Student: Excited to Dive in to the Tech Industry!</span>
                 </div>
+            
                 <div class = "wx">
                     <!--FORM TO SUBMIT USER DATA-->
                     <form>
@@ -50,26 +50,41 @@
                             Sunset (local time): 
                             <span id="sunset"></span><br>
                             Try Your Zipcode: <input name="city" type="text" id="zipCity" size="2">
-                            <input name="submit" type="submit" id="sub">
+                            <input name="submit" type="submit" id="sub"><br>
                         </fieldset>
                     </form>
                 </div>
-            </div>
-            <div id="photoCar">
+                <div class="bodyPage">
+                        <h4>CS 290 Project Requirements Key</h4>
+                        <ul>
+                            <li>Pictures: Homepage (here), Photography</li>
+                            <li>Three subpages: Resume, Photography, Hobbies</li>
+                            <li>Picture Carousel: Homepage, Photography (Upper Right)</li>
+                            <li>Scroll Box: Hobbies</li>
+                            <li>Submit: Homepage (weather zipcode), Hobbies (POST request)</li>
+                            <li>Unordered HTML (this list)</li>
+                            <li>Download files: Resume</li>
+                            <li>Link to outside pages: All pages (bottom bar contact methods)</li>
+                            <li>Other Features: Media calls to reorganize based on screen width</li>
+                            <li>HTML/CSS/Javascript: All pages use HTML styled by pure CSS, the weather, photo carousels and scroll box text entry use Javascript</li>
+                        </ul>
+                    </div>
+                <!--Three portraits rotate throught a slideshow.  Uses javascrip "photos.js"-->
+                <div id="photoCar">
                     <img name="move" alt="Portrait Photo" id="actualPic">  
-                 
-                    </div>  
+                </div> 
+            </div>
             <div class="push"></div>
         </div>
         
         <footer class="footer">
             <div class = "credit">Background Photo by Anchor Lee on Unsplash</div>
-                <span>Contact Me:</span><br>
-                    <a href="mailto: aclos3@gmail.com?Subject=I%20Saw%20Your%20Website" class="clink" id="firstContact"><i class="fas fa-envelope-square"></i>  Email</a>
-                    <a href="https://www.linkedin.com/in/andrewclos" class="clink"><i class="fab fa-linkedin"></i>  LinkedIn</a>
-                    <a href="https://www.facebook.com/andrew.clos.9" class="clink"><i class="fab fa-facebook-square"></i>  Facebook</a>
-                    <a href="https://www.instagram.com/aclos3/" class="clink"><i class="fab fa-instagram"></i>  Instagram</a>
-                    <a href="https://github.com/aclos3/" class="clink"><i class="fab fa-github"></i>  GitHub</a>
+            <span>Contact Me:</span><br>
+            <a href="mailto: aclos3@gmail.com?Subject=I%20Saw%20Your%20Website" class="clink" id="firstContact"><i class="fas fa-envelope-square"></i>  Email</a>
+            <a href="https://www.linkedin.com/in/andrewclos" class="clink"><i class="fab fa-linkedin"></i>  LinkedIn</a>
+            <a href="https://www.facebook.com/andrew.clos.9" class="clink"><i class="fab fa-facebook-square"></i>  Facebook</a>
+            <a href="https://www.instagram.com/aclos3/" class="clink"><i class="fab fa-instagram"></i>  Instagram</a>
+            <a href="https://github.com/aclos3/" class="clink"><i class="fab fa-github"></i>  GitHub</a>
         </footer>
         <script src="script.js"></script>
         <script src="photo.js"></script>

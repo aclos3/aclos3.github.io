@@ -8,27 +8,50 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        
-        <div class="navbar">
-                <a href="index.html"><i class="fas fa-home"></i> Home</a>
-                <a href="resume.html"><i class="far fa-file"></i> Resume</a>
-                <a href="photos.html"><i class="fas fa-camera"></i> Photography</a>
-                <a href="hobbies.html" class="active1"><i class="fas fa-bicycle"></i> Hobbies</a>
-                <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
-        
-        </div>
-         
-        <div class="bodyPage">
-            <p class="introText">Hobbies</p>
-        </div>
-        <div class="footer">
-                <p id="title">Contact Me Via:</p>
-                    <a href="#"><i class="fas fa-envelope-square"></i>  Email</a>
-                    <a href="#"><i class="fab fa-linkedin"></i>  LinkedIn</a>
-                    <a href="#"><i class="fab fa-facebook-square"></i>  Facebook</a>
-                    <a href="#"><i class="fab fa-instagram"></i>  Instagram</a>
+        <div class="cont">
+            <header class="navbar">
+                    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                    <a href="resume.html"><i class="far fa-file"></i> Resume</a>
+                    <a href="photos.html"><i class="fas fa-camera"></i> Photography</a>
+                    <a href="hobbies.html" class="active1"><i class="fas fa-bicycle"></i> Hobbies</a>
+                    <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+            </header>
+            
+            <div class="bodyPage">
+                <p class="introText">Hobbies</p>
             </div>
+            <p id="hobDes">This page is currently showing some additional, specific requirements for the CS290 Web Development course. After grading, it will contain some of
+                 my hobbies and interests.</p>
+            
+            <div id="entry">
+                <h3>Text Poster!</h3>
+                <p>Text you enter in to the box below will be sent as a POST to <a href ="https://httpbin.org/" >HTTPBin.org</a> when you press submit.  Then, the return from HTTPBin will be 
+                    parsed and added to the scroll box with the blue border below.</p>
+                <!--Collect user data-->
+                <form>
+                    Enter Text Here: <input name="entry1" type="text" id="entry1"><br>
+                    <input name="submit" type="submit" id="sub"><br>
+                </form>
 
+                <!--display the submitted data-->
+                <form>
+                    <h3>POST Response Scroll Box:</h3>
+                    <div id="rec">This scroll box will append any text received from the POST to the end of this message.  <br></div>
+                </form>
+            </div>
+        
+            <div class="push"></div>
+        </div>
+        <footer class="footer"> 
+                <div class = "credit">Background Photo by Anchor Lee on Unsplash</div>       
+                <span>Contact Me:</span><br>
+                <a href="mailto: aclos3@gmail.com?Subject=I%20Saw%20Your%20Website" class="clink" id="firstContact"><i class="fas fa-envelope-square"></i>  Email</a>
+                <a href="https://www.linkedin.com/in/andrewclos" class="clink"><i class="fab fa-linkedin"></i>  LinkedIn</a>
+                <a href="https://www.facebook.com/andrew.clos.9" class="clink"><i class="fab fa-facebook-square"></i>  Facebook</a>
+                <a href="https://www.instagram.com/aclos3/" class="clink"><i class="fab fa-instagram"></i>  Instagram</a>
+                <a href="https://github.com/aclos3/" class="clink"><i class="fab fa-github"></i>  GitHub</a>
+        </footer>
+        <script src="entryScript.js"></script>
     </body>
     
 </html>
