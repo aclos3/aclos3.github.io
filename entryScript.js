@@ -16,7 +16,7 @@ function makePost()
         var forPosting = "***default***";
         var fromUser = document.getElementById("entry1").value;
         
-        newPost.open("POST", "http://httpbin.org/post", true);
+        newPost.open("POST", "https://httpbin.org/post", true);
         newPost.setRequestHeader('Content-Type', 'application/json');
 
         newPost.addEventListener("load", function()
