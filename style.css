@@ -140,6 +140,12 @@ html, body {
     color: #7e6596;
 }
 
+#cs290 {
+    float:left;
+    width: 60%;
+    font-size: 14px;
+}
+
 /*
 *  This section has background image credit specific styling.
 */
