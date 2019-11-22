@@ -5,8 +5,8 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #a0a0a0;
-    background-size: 100%;
     background-image: url("images/bck.jpg");
+    background-size: 100%;
 }
 
 .cont {
