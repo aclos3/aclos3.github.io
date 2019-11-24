@@ -1,0 +1,20 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="3">
+    <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="0"/>
+    <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1"/>
+    <control controlID="F8579CE6-4AB9-4975-BFEE-D4DAAB669BB5" controlTypeID="Icon" x="10" y="30" w="32" h="32" zOrder="2">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62356</iconCode>
+      </icon>
+      <URL>F8C2434C2C958119B1E6150C97C501FA.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

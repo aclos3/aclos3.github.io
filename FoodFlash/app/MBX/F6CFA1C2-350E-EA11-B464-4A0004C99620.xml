@@ -1,0 +1,251 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="F6CFA1C2-350E-EA11-B464-4A0004C99620" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="17">
+    <control controlID="927E5FEC-350E-EA11-B464-4A0004C99620" controlTypeID="Icon" x="10" y="10" w="32" h="32" zOrder="0">
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{19831F74-52CD-43C2-BF4D-D032A639DB9B}" coords="(0,0,32,32)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="76C0FC49-65F6-409C-8B3D-95B0F487D7D5" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Popup State Change" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="0" varType="3" description=""/>
+                    <param name="AniDuration" value="200" varType="3" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="Value" value="2" varType="3" description=""/>
+                    <param name="AniType" value="0" varType="3" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62356</iconCode>
+      </icon>
+      <URL>F8C2434C2C958119B1E6150C97C501FA.svg</URL>
+    </control>
+    <control controlID="0A7F5FEC-350E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="10" w="358" h="52" zOrder="1">
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Food+Flash</text>
+      <textSize>60</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="88390108-360E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="90" w="352" h="50" zOrder="2">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="CAB75B9C-F40E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Account+and+Settings+-+Jared">
+          <area shape="0" alt="" ID="{02344C85-2981-499B-8BD2-AA215C961A8F}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Account+and+Settings</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="0635E91E-360E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="170" w="352" h="50" zOrder="3">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" linkType="ltPageLink" isApplyIncludePage="False" title="Order+Review+Screen+-+Jared">
+          <area shape="0" alt="" ID="{2AAB7CB7-613E-4260-AE47-51C03DD63EA1}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Order+Food</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="2E46C220-360E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="330" w="352" h="50" zOrder="4">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2A959B82-FF0E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Favorites+-+Jared">
+          <area shape="0" alt="" ID="{27DC26DC-BB44-43BF-B799-EE2D9B68CD8C}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Favorites</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C4574B22-360E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="570" w="352" h="50" zOrder="5">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="60649EA8-4A81-48FA-B3F5-040F2AF3B5B7" linkType="ltPageLink" isApplyIncludePage="False" title="Driver+Flag+Screen+1+-+Sarahi">
+          <area shape="0" alt="" ID="{FEE3C173-A86C-40F4-9E18-12F5A788F2D7}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Delivery+Driver</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="8B155D3E-6704-4228-AAF0-B68B2DA21701" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="6"/>
+    <control controlID="8265B7C6-89AD-49D8-91C3-C391176BF156" controlTypeID="TextArea" x="42" y="729" w="352" h="50" zOrder="7">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="682A406E-EFD3-41D9-BF97-98141774A385" linkType="ltPageLink" isApplyIncludePage="False" title="Help+(tutorial)+1">
+          <area shape="0" alt="" ID="{9F76339F-1E0B-47AF-A564-87C2F6C80937}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Help%3A+Tutorial</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1C0E4C64-D551-428F-8ACC-335EDB8F66E0" controlTypeID="TextArea" x="42" y="490" w="352" h="50" zOrder="8">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="4102A4BA-2C9E-4CA7-8CE5-96B927B4D39C" linkType="ltPageLink" isApplyIncludePage="False" title="Review+-+Andrew">
+          <area shape="0" alt="" ID="{F48D22F5-6C6E-49E6-B35C-244A595E58B3}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Review+Orders</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="CB649CF8-1B06-4C78-AD3B-6D5A423F7857" controlTypeID="TextArea" x="42" y="410" w="352" h="50" zOrder="9">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="20AF775C-020F-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Recent+Orders+-+Jared">
+          <area shape="0" alt="" ID="{27DC26DC-BB44-43BF-B799-EE2D9B68CD8C}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Recent+Orders</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6A4DAF01-E682-451B-AC12-C7768AD41AF3" controlTypeID="TextArea" x="42" y="650" w="352" h="50" zOrder="10">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="9B838B82-C8FB-4B60-AA2C-08EF3738819C" linkType="ltPageLink" isApplyIncludePage="False" title="Help+(customer+service)+-+Sarahi">
+          <area shape="0" alt="" ID="{A51376EC-DDB7-415D-AD20-18EB94FE4B5E}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Customer+Service</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B40AED9D-23BC-40FF-8155-15B21AE2B438" controlTypeID="TextArea" x="42" y="250" w="352" h="50" zOrder="11">
+      <borderVisible>True</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="F54F71CC-658F-45C8-A965-075A42D7FF2C" linkType="ltPageLink" isApplyIncludePage="False" title="Order+Tracker+Screen">
+          <area shape="0" alt="" ID="{27DC26DC-BB44-43BF-B799-EE2D9B68CD8C}" coords="(0,0,352,50)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Track+Order</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <textVAlign>VaMiddle</textVAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="76C0FC49-65F6-409C-8B3D-95B0F487D7D5" controlTypeID="PopupMenu" x="-130" y="73" w="46" h="46" zOrder="12">
+      <groupChildrenDescriptors>
+        <control controlID="BB2B4F56-D421-4E89-BBFC-3DC36948FC59" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
+          <locked>True</locked>
+          <color>1879048192</color>
+          <borderVisible>False</borderVisible>
+          <canMove>False</canMove>
+          <alias>background</alias>
+          <groupChildrenDescriptors>
+            <control controlID="FEA95EE2-20EA-461C-8138-4099BA91BD54" controlTypeID="Border" x="0" y="0" w="414" h="896" zOrder="0">
+              <borderVisible>False</borderVisible>
+              <alias>borderLayer</alias>
+            </control>
+          </groupChildrenDescriptors>
+          <thinkness>1</thinkness>
+        </control>
+        <control controlID="3BD0825D-DD3D-4993-AF32-C4A6A404921B" controlTypeID="PopupPanelContent" x="10" y="62" w="168" h="486" zOrder="1">
+          <borderVisible>True</borderVisible>
+          <alias>content</alias>
+          <groupChildrenDescriptors>
+            <control controlID="D6751E1A-B982-456B-A0F1-B56D7A060D3A" controlTypeID="List" x="0" y="0" w="168" h="486" zOrder="0">
+              <color>4293980400</color>
+              <alias>menu</alias>
+              <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+                <link targetPageID="CAB75B9C-F40E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Account+and+Settings">
+                  <area shape="0" alt="" ID="{5DA41AAE-7C7F-4AD9-8ED3-79C57D8C3675}" coords="(1,1,167,49)"/>
+                </link>
+                <link targetPageID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" linkType="ltPageLink" isApplyIncludePage="False" title="Order+Food">
+                  <area shape="0" alt="" ID="{4B89C339-E986-416E-A782-6A3FBAF653F8}" coords="(1,49,167,97)"/>
+                </link>
+                <link targetPageID="F54F71CC-658F-45C8-A965-075A42D7FF2C" linkType="ltPageLink" isApplyIncludePage="False" title="Track+Order">
+                  <area shape="0" alt="" ID="{5A522BD1-04BE-480C-BDDC-F99F0CEA913F}" coords="(1,97,167,145)"/>
+                </link>
+                <link targetPageID="2A959B82-FF0E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Favorites">
+                  <area shape="0" alt="" ID="{D9C6726A-A3A7-403A-B034-A202961B175F}" coords="(1,145,167,193)"/>
+                </link>
+                <link targetPageID="20AF775C-020F-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Recent+Orders">
+                  <area shape="0" alt="" ID="{817564EF-AEE5-48FF-A69D-2EDDCD34B01C}" coords="(1,193,167,241)"/>
+                </link>
+                <link targetPageID="4102A4BA-2C9E-4CA7-8CE5-96B927B4D39C" linkType="ltPageLink" isApplyIncludePage="False" title="Review+Order">
+                  <area shape="0" alt="" ID="{FE5E3AF7-0286-4942-93A0-93C14E6BF763}" coords="(1,241,167,289)"/>
+                </link>
+                <link targetPageID="60649EA8-4A81-48FA-B3F5-040F2AF3B5B7" linkType="ltPageLink" isApplyIncludePage="False" title="Delivery+Driver">
+                  <area shape="0" alt="" ID="{EBCAAA4E-A7AA-4506-B01C-A9984A9E0441}" coords="(1,289,167,337)"/>
+                </link>
+                <link targetPageID="9B838B82-C8FB-4B60-AA2C-08EF3738819C" linkType="ltPageLink" isApplyIncludePage="False" title="Customer+Service">
+                  <area shape="0" alt="" ID="{3FC2410C-7A70-4068-AF0B-205F50C5F396}" coords="(1,337,167,385)"/>
+                </link>
+                <link targetPageID="682A406E-EFD3-41D9-BF97-98141774A385" linkType="ltPageLink" isApplyIncludePage="False" title="Help%3A+Tutorial">
+                  <area shape="0" alt="" ID="{C0B15BBB-2284-4EC9-998B-D059DF0CEB8C}" coords="(1,385,167,433)"/>
+                </link>
+                <link targetPageID="F6CFA1C2-350E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Expand+Menu">
+                  <area shape="0" alt="" ID="{4CF7F70B-BC24-493C-A9F2-6F154909E30E}" coords="(1,433,167,481)"/>
+                </link>
+              </links>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <text>Account+and+Settings%0D%0AOrder+Food%0D%0ATrack+Order%0D%0AFavorites%0D%0ARecent+Orders%0D%0AReview+Order%0D%0ADelivery+Driver%0D%0ACustomer+Service%0D%0AHelp%3A+Tutorial%0D%0AExpand+Menu</text>
+              <textSize>14</textSize>
+              <lineSpacing>0</lineSpacing>
+              <selectedColor>268435455</selectedColor>
+              <itemHeight>48</itemHeight>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>
