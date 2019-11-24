@@ -39,7 +39,6 @@ html, body {
      text-align: center;
      color: #e6e6e6;
      background-color: #9292af;
-     /*background-color: #0065a8; */
      font-size: 15px;
      font-family: Verdana, 'Times New Roman', Times, serif;
  }
@@ -170,6 +169,11 @@ html, body {
     text-decoration: none;
 }
 
+#resFrame {
+    width: 850px;
+    height: 550px;
+}
+
 /*
 *  Panorama scrolling picture section
 *  Source Cited for assistence in creating the carousel of panoramas: 
@@ -260,6 +264,14 @@ html, body {
     
 }
 /*
+*  This section has FoodFlash specific styling.
+*/
+
+#ffFrame {
+    width: 1200px;
+    height: 1190px;
+}
+/*
 *  This section has blog specific styling.
 */
 .leftcolumn {   
@@ -325,6 +337,10 @@ html, body {
         bottom: 1px;
         font-size: 12px;
         font-family: Verdana, 'Times New Roman', Times, serif;
+    }
+    #resFrame{
+        width: 300px;
+        height:500px;
     }
 
 }
