@@ -1,13 +1,7 @@
-<mockup version="5.3" minAllowVersion="5.3" ID="140CB6A4-1E82-4909-BB1C-3FC754E06E82" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="23">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="140CB6A4-1E82-4909-BB1C-3FC754E06E82" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="24">
     <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="0"/>
-    <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1">
-      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="CEA9A165-624A-44CA-ACE6-7113DF02258F" linkType="ltPageLink" isApplyIncludePage="False" title="Driver+Order+Confirmation+1+-+Jared">
-          <area shape="0" alt="" ID="{DB0730D7-AA17-4CE0-B1F4-0B670961F361}" coords="(0,0,414,55)"/>
-        </link>
-      </links>
-    </control>
+    <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1"/>
     <control controlID="B0C9F8EB-0849-46D1-BF87-C1EBBD7967A3" controlTypeID="Icon" x="10" y="30" w="32" h="32" zOrder="2">
       <interactiveData>
         <entry title="">
@@ -236,7 +230,19 @@
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="1825473E-DFDE-48A4-A2DF-6A3DA0279376" controlTypeID="PopupMenu" x="-107" y="72" w="46" h="46" zOrder="18">
+    <control controlID="BD119499-464C-4605-A88B-5EB04759741E" controlTypeID="Shape" x="0" y="840" w="153" h="55" zOrder="18">
+      <color>16777215</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="CEA9A165-624A-44CA-ACE6-7113DF02258F" linkType="ltPageLink" isApplyIncludePage="False" title="Driver+Order+Confirmation+1">
+          <area shape="0" alt="" ID="{486932F5-574C-4307-9931-F2BE9868AD4C}" coords="(0,0,153,55)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1825473E-DFDE-48A4-A2DF-6A3DA0279376" controlTypeID="PopupMenu" x="-107" y="72" w="46" h="46" zOrder="19">
       <groupChildrenDescriptors>
         <control controlID="4060609A-1669-4272-BF2F-FF755FA96218" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>

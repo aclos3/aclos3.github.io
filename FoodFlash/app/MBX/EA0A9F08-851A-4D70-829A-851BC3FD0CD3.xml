@@ -1,5 +1,5 @@
-<mockup version="5.3" minAllowVersion="5.3" ID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="35">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="36">
     <control controlID="9D01ED51-22FC-4A96-929B-BD8763F2A3CE" controlTypeID="Shape" x="1" y="404" w="399" h="164" zOrder="0">
       <borderColor>4278190080</borderColor>
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
@@ -25,13 +25,7 @@
       <thickness>2</thickness>
     </control>
     <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="2"/>
-    <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="3">
-      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="7A12B99C-2AE8-41CD-AA95-F708686DB888" linkType="ltPageLink" isApplyIncludePage="False" title="Welcome-Login+-+Andrew">
-          <area shape="0" alt="" ID="{376A0B26-25EC-46FE-A82B-FAC7C08661C2}" coords="(0,0,414,55)"/>
-        </link>
-      </links>
-    </control>
+    <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="3"/>
     <control controlID="F8579CE6-4AB9-4975-BFEE-D4DAAB669BB5" controlTypeID="Icon" x="10" y="30" w="32" h="32" zOrder="4">
       <interactiveData>
         <entry title="">
@@ -312,7 +306,19 @@
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="B3943E40-8185-4FEE-BF5A-FE51160358AD" controlTypeID="VerticalScrollbar" x="400" y="404" w="14" h="344" zOrder="26"/>
-    <control controlID="102839B0-B8BF-4F5E-B60A-DD023BB132FA" controlTypeID="PopupMenu" x="-126" y="75" w="46" h="46" zOrder="27">
+    <control controlID="98890EB3-67D9-4075-B753-C30EA92A5858" controlTypeID="Shape" x="0" y="841" w="153" h="55" zOrder="27">
+      <color>16777215</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="7A12B99C-2AE8-41CD-AA95-F708686DB888" linkType="ltPageLink" isApplyIncludePage="False" title="Welcome-Login">
+          <area shape="0" alt="" ID="{486932F5-574C-4307-9931-F2BE9868AD4C}" coords="(0,0,153,55)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="102839B0-B8BF-4F5E-B60A-DD023BB132FA" controlTypeID="PopupMenu" x="-126" y="75" w="46" h="46" zOrder="28">
       <groupChildrenDescriptors>
         <control controlID="BFDBA565-A70D-4D5E-ACF9-BBDEA0D2CCEB" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>

@@ -1,5 +1,5 @@
-<mockup version="5.3" minAllowVersion="5.3" ID="2A959B82-FF0E-EA11-B464-4A0004C99620" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="19">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="2A959B82-FF0E-EA11-B464-4A0004C99620" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="20">
     <control controlID="6E54C716-000F-EA11-B464-4A0004C99620" controlTypeID="Icon" x="10" y="15" w="32" h="32" zOrder="0">
       <interactiveData>
         <entry title="">
@@ -85,13 +85,7 @@
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="2AEACF9C-CE7A-4A56-A16A-DFE85F665BAC" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="9">
-      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="F6CFA1C2-350E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Universal+Menu+Screen">
-          <area shape="0" alt="" ID="{348E21BB-A2FD-44BE-A4D5-759E4738BA4C}" coords="(0,0,414,55)"/>
-        </link>
-      </links>
-    </control>
+    <control controlID="2AEACF9C-CE7A-4A56-A16A-DFE85F665BAC" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="9"/>
     <control controlID="2AA44E90-17D7-4EC1-AAF9-4462A7FD18EB" controlTypeID="Icon" x="344" y="194" w="32" h="32" zOrder="10">
       <icon>
         <ID/>
@@ -119,7 +113,19 @@
     <control controlID="7E38BA67-B203-495B-ABCB-7DC8C5E1707A" controlTypeID="Image" x="13" y="745" w="389" h="80" zOrder="13">
       <URL>C21935B8F3432433873507C67A3B0299.png</URL>
     </control>
-    <control controlID="83A21F5E-F544-4D62-BF07-1FE97D0D9CD9" controlTypeID="PopupMenu" x="-111" y="72" w="46" h="46" zOrder="14">
+    <control controlID="71FDA3AF-12C1-4076-89B7-D24B0A68C3DC" controlTypeID="Shape" x="0" y="841" w="153" h="55" zOrder="14">
+      <color>16777215</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="F6CFA1C2-350E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Universal+Menu+Screen">
+          <area shape="0" alt="" ID="{486932F5-574C-4307-9931-F2BE9868AD4C}" coords="(0,0,153,55)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="83A21F5E-F544-4D62-BF07-1FE97D0D9CD9" controlTypeID="PopupMenu" x="-111" y="72" w="46" h="46" zOrder="15">
       <groupChildrenDescriptors>
         <control controlID="2BF93D45-7855-479F-8EAD-961D02FF0D54" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>

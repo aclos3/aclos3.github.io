@@ -1,13 +1,7 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="DCD2F4C8-69D7-4F70-929E-B49C881B6A34" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="17">
+  <controls controlCount="18">
     <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="0"/>
-    <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1">
-      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" linkType="ltPageLink" isApplyIncludePage="False" title="SearchRestaurant+-+Andrew">
-          <area shape="0" alt="" ID="{4A10BD72-C9A8-4019-BC67-4FA63221542F}" coords="(0,0,414,55)"/>
-        </link>
-      </links>
-    </control>
+    <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1"/>
     <control controlID="8A38BE4F-0A0C-EA11-ADA8-4A0004C99620" controlTypeID="Icon" x="10" y="30" w="32" h="32" zOrder="2">
       <interactiveData>
         <entry title="">
@@ -127,7 +121,19 @@
       </icon>
       <URL>84E43FD667F4EA128EEFBAD7B03B51F5.svg</URL>
     </control>
-    <control controlID="1FB6871D-F607-4F46-A2D6-D7CE6B541034" controlTypeID="PopupMenu" x="-104" y="75" w="46" h="46" zOrder="12">
+    <control controlID="67F5F2B8-4E9B-4153-8CE7-F111C1584902" controlTypeID="Shape" x="0" y="841" w="153" h="55" zOrder="12">
+      <color>16777215</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" linkType="ltPageLink" isApplyIncludePage="False" title="SearchRestaurant">
+          <area shape="0" alt="" ID="{486932F5-574C-4307-9931-F2BE9868AD4C}" coords="(0,0,153,55)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1FB6871D-F607-4F46-A2D6-D7CE6B541034" controlTypeID="PopupMenu" x="-104" y="75" w="46" h="46" zOrder="13">
       <groupChildrenDescriptors>
         <control controlID="CFF92ECF-31CB-4ECA-B1F4-5374DD36E027" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>

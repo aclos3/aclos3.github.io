@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="CAB75B9C-F40E-EA11-B464-4A0004C99620" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="33">
+  <controls controlCount="34">
     <control controlID="F2174AB2-F40E-EA11-B464-4A0004C99620" controlTypeID="Icon" x="14" y="10" w="32" h="32" zOrder="0">
       <interactiveData>
         <entry title="">
@@ -220,14 +220,20 @@
       <text>Add+a+new+location</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="AD0A462E-892C-431D-8AD2-F779DB3D5F2A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="27">
+    <control controlID="AD0A462E-892C-431D-8AD2-F779DB3D5F2A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="27"/>
+    <control controlID="555DD171-1FE8-4467-BCA5-9F8F387EEA3C" controlTypeID="Shape" x="0" y="841" w="153" h="55" zOrder="28">
+      <color>16777215</color>
+      <borderVisible>False</borderVisible>
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
-        <link targetPageID="F6CFA1C2-350E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Universal+Menu+Screen+-+Jared">
-          <area shape="0" alt="" ID="{D69B4DBB-6655-45FF-AB7F-CB63EAE88120}" coords="(0,0,414,55)"/>
+        <link targetPageID="F6CFA1C2-350E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Universal+Menu+Screen">
+          <area shape="0" alt="" ID="{486932F5-574C-4307-9931-F2BE9868AD4C}" coords="(0,0,153,55)"/>
         </link>
       </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="30029DF5-5002-47AB-9AA9-9992A8D5E170" controlTypeID="PopupMenu" x="-95" y="53" w="46" h="46" zOrder="28">
+    <control controlID="30029DF5-5002-47AB-9AA9-9992A8D5E170" controlTypeID="PopupMenu" x="-95" y="53" w="46" h="46" zOrder="29">
       <groupChildrenDescriptors>
         <control controlID="C6004D06-D5EA-4090-90EE-11EF872E5C1C" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>
