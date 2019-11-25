@@ -1,5 +1,5 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="2A959B82-FF0E-EA11-B464-4A0004C99620" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="18">
+<mockup version="5.3" minAllowVersion="5.3" ID="2A959B82-FF0E-EA11-B464-4A0004C99620" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="19">
     <control controlID="6E54C716-000F-EA11-B464-4A0004C99620" controlTypeID="Icon" x="10" y="15" w="32" h="32" zOrder="0">
       <interactiveData>
         <entry title="">
@@ -39,16 +39,17 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="946D5422-000F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="52" y="87" w="334" h="63" zOrder="2">
+    <control controlID="946D5422-000F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="52" y="88" w="334" h="63" zOrder="2">
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Favorites</text>
       <textSize>40</textSize>
       <textAlign>HaCenter</textAlign>
       <textVAlign>VaMiddle</textVAlign>
+      <textStyles>[fsUnderline]</textStyles>
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="D8004B3B-000F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="170" w="344" h="69" zOrder="3">
+    <control controlID="D8004B3B-000F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="170" w="344" h="79" zOrder="3">
       <borderVisible>True</borderVisible>
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%0A+-+Crunchwrap+Supreme%0A+-+Md.+Dr.+Pepper%0A+Total%3A+$6.45</text>
@@ -60,62 +61,65 @@
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="64752005-010F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="257" w="344" h="86" zOrder="5">
+    <control controlID="64752005-010F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="270" w="344" h="103" zOrder="5">
       <borderVisible>True</borderVisible>
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%0A+-+Chick-fil-a+sandwhich%0A++++-+no+pickle%0A-+Md.+Sweet+Tea%0A+Total%3A+$12.45</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="DC752005-010F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="256" w="62" h="19" zOrder="6">
+    <control controlID="DC752005-010F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="269" w="62" h="19" zOrder="6">
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Chick-fil-a</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="FAB8DE35-010F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="360" w="344" h="69" zOrder="7">
+    <control controlID="FAB8DE35-010F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="393" w="344" h="69" zOrder="7">
       <borderVisible>True</borderVisible>
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%0A-+Large+Pepperoni+Pizza%0ATotal%3A+$18.99</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="68B9DE35-010F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="359" w="110" h="19" zOrder="8">
+    <control controlID="68B9DE35-010F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="392" w="110" h="19" zOrder="8">
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Andolini's+Pizzeria</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="E66927B4-010F-EA11-B464-4A0004C99620" controlTypeID="Icon" x="343" y="183" w="37" h="37" zOrder="9">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62643</iconCode>
-      </icon>
-      <URL>BFD60F8F19E479B83E76CD385540E2FB.svg</URL>
-    </control>
-    <control controlID="94ADC7BD-010F-EA11-B464-4A0004C99620" controlTypeID="Icon" x="344" y="284" w="37" h="37" zOrder="10">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62643</iconCode>
-      </icon>
-      <URL>BFD60F8F19E479B83E76CD385540E2FB.svg</URL>
-    </control>
-    <control controlID="46B93CC2-010F-EA11-B464-4A0004C99620" controlTypeID="Icon" x="344" y="376" w="37" h="37" zOrder="11">
-      <icon>
-        <ID/>
-        <iconFontName>jdIonicons</iconFontName>
-        <iconCode>62643</iconCode>
-      </icon>
-      <URL>BFD60F8F19E479B83E76CD385540E2FB.svg</URL>
-    </control>
-    <control controlID="2AEACF9C-CE7A-4A56-A16A-DFE85F665BAC" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="12">
+    <control controlID="2AEACF9C-CE7A-4A56-A16A-DFE85F665BAC" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="9">
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
         <link targetPageID="F6CFA1C2-350E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Universal+Menu+Screen">
           <area shape="0" alt="" ID="{348E21BB-A2FD-44BE-A4D5-759E4738BA4C}" coords="(0,0,414,55)"/>
         </link>
       </links>
     </control>
-    <control controlID="83A21F5E-F544-4D62-BF07-1FE97D0D9CD9" controlTypeID="PopupMenu" x="-111" y="72" w="46" h="46" zOrder="13">
+    <control controlID="2AA44E90-17D7-4EC1-AAF9-4462A7FD18EB" controlTypeID="Icon" x="344" y="194" w="32" h="32" zOrder="10">
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61444</iconCode>
+      </icon>
+      <URL>BEB5A07F5D035946C24D8B04858B49DE.svg</URL>
+    </control>
+    <control controlID="D5411133-4C59-461C-8D58-3FAE607A4DE0" controlTypeID="Icon" x="344" y="306" w="32" h="32" zOrder="11">
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61444</iconCode>
+      </icon>
+      <URL>BEB5A07F5D035946C24D8B04858B49DE.svg</URL>
+    </control>
+    <control controlID="50C254AC-AC0B-49B2-9C3E-CD038E4ACABA" controlTypeID="Icon" x="344" y="416" w="32" h="32" zOrder="12">
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61444</iconCode>
+      </icon>
+      <URL>BEB5A07F5D035946C24D8B04858B49DE.svg</URL>
+    </control>
+    <control controlID="7E38BA67-B203-495B-ABCB-7DC8C5E1707A" controlTypeID="Image" x="13" y="745" w="389" h="80" zOrder="13">
+      <URL>C21935B8F3432433873507C67A3B0299.png</URL>
+    </control>
+    <control controlID="83A21F5E-F544-4D62-BF07-1FE97D0D9CD9" controlTypeID="PopupMenu" x="-111" y="72" w="46" h="46" zOrder="14">
       <groupChildrenDescriptors>
         <control controlID="2BF93D45-7855-479F-8EAD-961D02FF0D54" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>

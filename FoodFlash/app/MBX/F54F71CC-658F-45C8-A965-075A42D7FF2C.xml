@@ -1,4 +1,4 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="F54F71CC-658F-45C8-A965-075A42D7FF2C" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+<mockup version="5.3" minAllowVersion="5.3" ID="F54F71CC-658F-45C8-A965-075A42D7FF2C" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
   <controls controlCount="38">
     <control controlID="AC92B6D2-B3B5-4449-BA43-E2ED4D1190CA" controlTypeID="Map" x="29" y="408" w="349" h="245" zOrder="0"/>
     <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="1"/>
@@ -153,15 +153,17 @@
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="5467142D-8BC9-4102-9EB3-6C3F4570ABAF" controlTypeID="Button" x="16" y="708" w="178" h="48" zOrder="11">
-      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Call+Driver</text>
       <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="7E53930C-B012-4242-B5CB-318711C45AC9" controlTypeID="Button" x="221" y="708" w="169" h="48" zOrder="12">
-      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Call+Restaurant</text>
       <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="DA467A5F-EF61-4CB5-AEE2-BBF583C51B16" controlTypeID="Shape" x="19" y="286" w="120" h="100" zOrder="13">
@@ -249,16 +251,18 @@
       <URL>474A61FDC203C97B2EEFAF494C017CCB.svg</URL>
     </control>
     <control controlID="EBEE6A20-B2C5-4353-A24F-F20621F82122" controlTypeID="Button" x="286" y="286" w="89" h="39" zOrder="19">
-      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>View+Order</text>
       <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="18FE070C-58DC-46A9-AB82-2D58C4893790" controlTypeID="Button" x="284" y="348" w="91" h="38" zOrder="20">
-      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Cancel+Order</text>
       <textColor>4294901760</textColor>
       <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="AF5D61B7-3C53-4D1C-B0BE-F45340260920" controlTypeID="Label" x="153" y="548" w="58" h="19" zOrder="21">

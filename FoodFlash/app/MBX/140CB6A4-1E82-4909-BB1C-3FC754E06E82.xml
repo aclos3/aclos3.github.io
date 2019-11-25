@@ -1,5 +1,5 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="140CB6A4-1E82-4909-BB1C-3FC754E06E82" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="22">
+<mockup version="5.3" minAllowVersion="5.3" ID="140CB6A4-1E82-4909-BB1C-3FC754E06E82" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="23">
     <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="0"/>
     <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1">
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
@@ -139,7 +139,7 @@
       </icon>
       <URL>C7D1B4CE058A7FC0691E8FF41CC36AD9.svg</URL>
     </control>
-    <control controlID="34952126-310E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="46" y="142" w="232" h="45" zOrder="6">
+    <control controlID="34952126-310E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="46" y="148" w="232" h="45" zOrder="6">
       <borderColor>4278190284</borderColor>
       <borderVisible>True</borderVisible>
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
@@ -197,7 +197,7 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="4257F817-308C-4027-A938-6FCE02529DD3" controlTypeID="CheckBox" x="324" y="142" w="60" h="60" zOrder="12">
+    <control controlID="4257F817-308C-4027-A938-6FCE02529DD3" controlTypeID="CheckBox" x="324" y="148" w="60" h="60" zOrder="12">
       <borderColor>4278190080</borderColor>
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <lineSpacing>0</lineSpacing>
@@ -230,7 +230,13 @@
       <isShow>False</isShow>
       <URL>22F44CD025A4C4593FA43FA79FBD6CFC.png</URL>
     </control>
-    <control controlID="1825473E-DFDE-48A4-A2DF-6A3DA0279376" controlTypeID="PopupMenu" x="-107" y="72" w="46" h="46" zOrder="17">
+    <control controlID="575714B9-6B2D-487A-90C5-9B209B9A2BC6" controlTypeID="Label" x="46" y="107" w="219" h="19" zOrder="17">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Please+comfirm+the+following+items%3A</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="1825473E-DFDE-48A4-A2DF-6A3DA0279376" controlTypeID="PopupMenu" x="-107" y="72" w="46" h="46" zOrder="18">
       <groupChildrenDescriptors>
         <control controlID="4060609A-1669-4272-BF2F-FF755FA96218" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>

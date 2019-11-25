@@ -1,5 +1,5 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="9B838B82-C8FB-4B60-AA2C-08EF3738819C" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="31">
+<mockup version="5.3" minAllowVersion="5.3" ID="9B838B82-C8FB-4B60-AA2C-08EF3738819C" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="34">
     <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="0"/>
     <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1">
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
@@ -47,33 +47,33 @@
       </icon>
       <URL>F8C2434C2C958119B1E6150C97C501FA.svg</URL>
     </control>
-    <control controlID="F545C3F2-6389-44BF-AB27-61895779A44F" controlTypeID="Label" x="64" y="264" w="158" h="19" zOrder="4">
+    <control controlID="F545C3F2-6389-44BF-AB27-61895779A44F" controlTypeID="Label" x="62" y="284" w="158" h="19" zOrder="4">
       <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Food+Flash+Support+Line</text>
       <lineSpacing>0</lineSpacing>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="A2683FB9-48AB-4CA4-AF56-F91D6B76BDAE" controlTypeID="Label" x="64" y="289" w="322" h="19" zOrder="5">
+    <control controlID="A2683FB9-48AB-4CA4-AF56-F91D6B76BDAE" controlTypeID="Label" x="62" y="309" w="322" h="19" zOrder="5">
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>You+can+contact+our+team+directly+by+giving+us+a+call.</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="957A5D33-F268-4AAB-BDB4-DF36DD591642" controlTypeID="Label" x="253" y="270" w="118" h="19" zOrder="6">
+    <control controlID="957A5D33-F268-4AAB-BDB4-DF36DD591642" controlTypeID="Label" x="251" y="290" w="118" h="19" zOrder="6">
       <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>+(541)+123+-+FOOD</text>
       <lineSpacing>0</lineSpacing>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="22844641-6C92-4C86-8EBA-A9D886063F11" controlTypeID="Label" x="63" y="368" w="170" h="19" zOrder="7">
+    <control controlID="22844641-6C92-4C86-8EBA-A9D886063F11" controlTypeID="Label" x="63" y="398" w="170" h="19" zOrder="7">
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>You+can+send+us+a+message.+</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="A59E4456-D264-4314-97FD-D455BA116734" controlTypeID="Label" x="64" y="457" w="340" h="19" zOrder="8">
+    <control controlID="A59E4456-D264-4314-97FD-D455BA116734" controlTypeID="Label" x="64" y="497" w="340" h="19" zOrder="8">
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>You+can+send+us+a+instant+chat+to+get+help+immediently.</text>
       <lineSpacing>0</lineSpacing>
@@ -85,35 +85,35 @@
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="FCC9395A-E17A-45A7-9EC7-0E6BDCCA20BD" controlTypeID="Label" x="63" y="345" w="109" h="19" zOrder="10">
+    <control controlID="FCC9395A-E17A-45A7-9EC7-0E6BDCCA20BD" controlTypeID="Label" x="63" y="375" w="109" h="19" zOrder="10">
       <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Food+Flash+Email+</text>
       <lineSpacing>0</lineSpacing>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="9A78DDEB-1BB3-440B-A1E4-4F02E4F654EC" controlTypeID="Label" x="64" y="438" w="109" h="19" zOrder="11">
+    <control controlID="9A78DDEB-1BB3-440B-A1E4-4F02E4F654EC" controlTypeID="Label" x="64" y="478" w="109" h="19" zOrder="11">
       <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Food+Flash+Email+</text>
       <lineSpacing>0</lineSpacing>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="AEB8BC20-C443-4E3E-AAE1-FC57AE2412C6" controlTypeID="Label" x="244" y="344" w="144" h="19" zOrder="12">
+    <control controlID="AEB8BC20-C443-4E3E-AAE1-FC57AE2412C6" controlTypeID="Label" x="244" y="374" w="144" h="19" zOrder="12">
       <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>foodflash@gmail.com</text>
       <lineSpacing>0</lineSpacing>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="36C372CB-B040-4000-9C1A-4ACFE42ABBF7" controlTypeID="Label" x="280" y="438" w="60" h="19" zOrder="13">
+    <control controlID="36C372CB-B040-4000-9C1A-4ACFE42ABBF7" controlTypeID="Label" x="280" y="478" w="60" h="19" zOrder="13">
       <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Live+Chat</text>
       <lineSpacing>0</lineSpacing>
       <textStyles>[fsBold,fsUnderline]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="D7C37A52-E492-4F35-A8FD-F4FAD5875D12" controlTypeID="Label" x="63" y="387" w="246" h="19" zOrder="14">
+    <control controlID="D7C37A52-E492-4F35-A8FD-F4FAD5875D12" controlTypeID="Label" x="63" y="417" w="246" h="19" zOrder="14">
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>We+will+respond+with+in+4+business+days.</text>
       <lineSpacing>0</lineSpacing>
@@ -157,7 +157,7 @@
       </icon>
       <URL>2DE76811BA0C7945414DAC5602145935.svg</URL>
     </control>
-    <control controlID="CBD2BE4A-5690-4D3A-96A1-97240D66ADC7" controlTypeID="Icon" x="9" y="355" w="39" h="39" zOrder="20">
+    <control controlID="CBD2BE4A-5690-4D3A-96A1-97240D66ADC7" controlTypeID="Icon" x="9" y="385" w="39" h="39" zOrder="20">
       <color>4278190080</color>
       <icon>
         <ID/>
@@ -166,7 +166,7 @@
       </icon>
       <URL>B006535552ADCF3C660B10FA6D267D70.svg</URL>
     </control>
-    <control controlID="1BA2AAD2-AF9F-4E50-AEA4-4CA7E48BD7F0" controlTypeID="Icon" x="11" y="274" w="34" h="34" zOrder="21">
+    <control controlID="1BA2AAD2-AF9F-4E50-AEA4-4CA7E48BD7F0" controlTypeID="Icon" x="9" y="294" w="34" h="34" zOrder="21">
       <color>4278190080</color>
       <icon>
         <ID/>
@@ -175,7 +175,7 @@
       </icon>
       <URL>94E9452D20864CF3FBC79CD2C4E76723.svg</URL>
     </control>
-    <control controlID="1597E435-4CCB-4C2B-8326-E84C8417839B" controlTypeID="Icon" x="9" y="444" w="38" h="38" zOrder="22">
+    <control controlID="1597E435-4CCB-4C2B-8326-E84C8417839B" controlTypeID="Icon" x="9" y="484" w="38" h="38" zOrder="22">
       <color>4278190080</color>
       <icon>
         <ID/>
@@ -207,7 +207,33 @@
       <textStyles>[fsUnderline]</textStyles>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="F8C7DECC-3B8D-4FE6-B303-2E3961F7CE15" controlTypeID="PopupMenu" x="-103" y="77" w="46" h="46" zOrder="26">
+    <control controlID="08A61AF2-344A-48A2-BABD-32AF78B6B5AE" controlTypeID="Label" x="37" y="562" w="77" h="27" zOrder="26">
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>Mission%3A</text>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B63FED95-3A96-4902-A13E-2A5C87FF0761" controlTypeID="Shape" x="42" y="589" w="309" h="96" zOrder="27">
+      <borderColor>4294967295</borderColor>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Here+at+Food+Flash+we+want+to+bring+you+a+transparent+food+delivery+service.+We+want+to+provide+you+the+convenience+of+delivery+with+accuracy!</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="D16C5B99-BFBD-40FE-A4A3-0C4FCC8250B9" controlTypeID="Label" x="98" y="715" w="206" h="54" zOrder="28">
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <text>Thank+You!</text>
+      <textColor>4284900966</textColor>
+      <textSize>40</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="F8C7DECC-3B8D-4FE6-B303-2E3961F7CE15" controlTypeID="PopupMenu" x="-103" y="77" w="46" h="46" zOrder="29">
       <groupChildrenDescriptors>
         <control controlID="FAE25AB8-9AB7-4930-9B56-FE11A27A7BD9" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>
