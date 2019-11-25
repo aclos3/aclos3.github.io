@@ -266,10 +266,15 @@ html, body {
 /*
 *  This section has FoodFlash specific styling.
 */
-
 #ffFrame {
     width: 1200px;
     height: 1190px;
+}
+
+.ffText {
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #727288;
 }
 /*
 *  This section has blog specific styling.
