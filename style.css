@@ -10,12 +10,11 @@ html, body {
 }
 
 .cont {
-
     min-height: 100%;
     margin: 0 auto -50px;
 }
 
-.navbar {
+.navbr {
     overflow: hidden;
     background-color: #9292af;
     top: 0;
@@ -42,6 +41,15 @@ html, body {
      font-size: 15px;
      font-family: Verdana, 'Times New Roman', Times, serif;
  }
+ .footer2 { 
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #e6e6e6;
+    background-color: #9292af;
+    font-size: 15px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+} 
 
  .clink {
      padding-left: 40px;
@@ -52,10 +60,11 @@ html, body {
  }
  .clink:hover {
     background-color: #9e6315;
+    color: #e6e6e6;
     
  }
 
-.navbar a {
+.navbr a {
     float: left;
     display: block;
     color: #e6e6e6;
@@ -69,9 +78,9 @@ html, body {
 .active1 {
     background-color: #42515c;
 }
-.navbar a:hover{
-    background-color: #9e6315;
-    
+.navbr a:hover{
+    background-color: #a58807; 
+    color: #e6e6e6;
 }
 
 /*
@@ -273,51 +282,147 @@ html, body {
 
 .ffText {
     font-family: Verdana, 'Times New Roman', Times, serif;
-    font-size: 16px;
     color: #727288;
+    font-size: 16px;
+
 }
 /*
 *  This section has blog specific styling.
 */
-.leftcolumn {   
+/*
+
+
+/* Create three equal columns that floats next to each other */
+#blogTitle {
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #727288;
+    font-size: 24px;
+    text-align: center;
+}
+#blogTagline {
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #727288;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #727288;
+}
+.postTitle {
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #727288;
+    font-size: 16px;
+}
+.postText {
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #727288;
+    font-size: 14px;
+}
+.column {
     float: left;
-    width: 75%;
-  }
-  
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-  }
-  
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
+    width: 30%;
     padding: 20px;
-  }
-  
-  /* Add a card effect for articles */
-  .card {
-     background-color: white;
-     padding: 20px;
-     margin-top: 20px;
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box; 
+    /*height: 300px; /* Should be removed. Only for demonstration */ 
   }
   
   /* Clear floats after the columns */
   .row:after {
     content: "";
+    margin: 30px;
     display: table;
     clear: both;
   }
+  .blogPhoto {
+      max-width: 100%;
+      max-height: 100%;
+  }
+  /*
+.center {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.label {
+  font-family: 'Quantico';
+  text-align: center;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.blog-card {
+  height: 230px;
+  width: 370px;
+  margin-left: 15px;
+  margin-right: 15px;
+}  
+  .blog-card__thumbnail {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+  }
   
+  .blog-card__details {
+    height: 250px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.5);
+  }
+  
+  .blog-card__title {
+    font-family: 'Quantico';
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #727288;
+  }
+  
+  .blog-card__description {
+    font-weight: 300;
+    font-size: 12px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #727288;
+  }
+  
+  .blog-card__action {
+    background: transparent;
+    border: none;
+    font-family: 'Quantico';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: #727288;
+    cursor: pointer;
+  }
+
+#header2 {
+    height: 95px;
+    background: url("images/IMG_3420a.png") center center / cover no-repeat;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #727288;
+    text-align: center;
+    border-bottom: 2px solid #727288;
+    border-top: 2px solid #727288;
+    width: 100%;
+    
+}
+ */ 
 
 /*
 *  This section resizes the menu for smaller screen sizes (mobile).
 */
 @media screen and (max-width: 830px) {
-    .navbar a {
+    .navbr a {
        float: none;
        display: block; 
     }
@@ -327,6 +432,10 @@ html, body {
         display: block;
     }
     .footer {
+        height: 125px;
+    }
+
+    .footer2 {
         height: 125px;
     }
     #myName {
@@ -345,8 +454,47 @@ html, body {
     }
     #resFrame{
         width: 300px;
-        height:500px;
+        height: 500px;
+    }
+    #ffFrame {
+        width: 400px;
+        height: 500px;
     }
 
-}
+    .column {
+        width: 100%;
+      }
+    /*
+    .card-wrapper {
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        
+      }
+      .blog-card {
+        width: 100%;
+        padding: 0px 0;
+    }
 
+    .blog-card {
+        height: 330px;
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+          
+        .blog-card__thumbnail {
+          width: 100%;
+          height: 180px;
+          object-fit: fill;
+        }
+        
+        .blog-card__details {  
+          display: block; 
+          flex-direction: column;
+          padding: 20px;
+          width: 80%;
+          
+        }
+      */
+}
