@@ -1577,6 +1577,11 @@
     <control controlID="7923B1A7-C9CA-4772-9328-F701BF1C69D9" controlTypeID="Shape" x="0" y="841" w="153" h="55" zOrder="35">
       <color>16777215</color>
       <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="2A959B82-FF0E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Favorites">
+          <area shape="0" alt="" ID="{951D1513-344F-447A-83E7-304664E34E3C}" coords="(0,0,153,55)"/>
+        </link>
+      </links>
       <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>

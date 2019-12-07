@@ -15,11 +15,11 @@
         <image key="ED83A95815FD163E8ED36A4E74A50C44.png"/>
         <image key="F7C322BE79921EE47B804C174C5D7BD5.png"/>
       </images>
-      <page name="Sign Up Screen" ID="5AC6B3E4-DFFE-4394-B23E-09FA6F7D55DB" expanded="True" code="zodhhX4hBF" thumbCode="zodhhX4hBF" status="psWhite" isLastOpen="" createdate="2019-11-21 20:35:28" author="311684" modifieddate="2019-12-01 21:47:02" isdeleted="False" isfolder="False" ismodified="False" syncversion="144" lasteditor="311651" isshownode="True">
+      <page name="Sign Up Screen" ID="5AC6B3E4-DFFE-4394-B23E-09FA6F7D55DB" expanded="True" code="6LSrCKI3op" thumbCode="6LSrCKI3op" status="psWhite" isLastOpen="" createdate="2019-11-21 20:35:28" author="311684" modifieddate="2019-12-02 15:56:10" isdeleted="False" isfolder="False" ismodified="False" syncversion="150" lasteditor="312050" isshownode="True">
         <images>
           <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
         </images>
-        <page name="Account and Settings" ID="CAB75B9C-F40E-EA11-B464-4A0004C99620" expanded="True" code="1v5QitCjYa" thumbCode="1v5QitCjYa" status="psWhite" isLastOpen="" createdate="2019-11-24 14:57:14" author="311651" modifieddate="2019-12-01 21:47:13" isdeleted="False" isfolder="False" ismodified="False" syncversion="144" lasteditor="311651" isshownode="True">
+        <page name="Account and Settings" ID="CAB75B9C-F40E-EA11-B464-4A0004C99620" expanded="True" code="5xGb9r9UcD" thumbCode="5xGb9r9UcD" status="psWhite" isLastOpen="" createdate="2019-11-24 14:57:14" author="311651" modifieddate="2019-12-02 15:53:22" isdeleted="False" isfolder="False" ismodified="False" syncversion="150" lasteditor="312050" isshownode="True">
           <images>
             <image key="909563FAFE25D2BCBB465D4435A7FA63.svg"/>
             <image key="42CF9E031360EBC09387427849BF6328.svg"/>
@@ -31,11 +31,12 @@
           </images>
         </page>
       </page>
-      <page name="SearchRestaurant" ID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" expanded="True" code="9RYQDbts8b" thumbCode="9RYQDbts8b" status="psWhite" isLastOpen="True" createdate="2019-11-20 18:41:28" author="311653" modifieddate="2019-12-02 11:59:03" isdeleted="False" isfolder="False" ismodified="False" syncversion="148" lasteditor="311653" isshownode="True">
+      <page name="SearchRestaurant" ID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" expanded="True" code="3vvUfblPyn" thumbCode="3vvUfblPyn" status="psWhite" isLastOpen="" createdate="2019-11-20 18:41:28" author="311653" modifieddate="2019-12-02 15:59:38" isdeleted="False" isfolder="False" ismodified="False" syncversion="150" lasteditor="312050" isshownode="True">
         <images>
+          <image key="27BF6DD5D083782A1CB633DA66BC8750.svg"/>
           <image key="9AA3BBA45A3E300BAA7EB9E147084DD6.png"/>
-          <image key="14B611F37D18059774D65B854426ABC2.png"/>
           <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
+          <image key="14B611F37D18059774D65B854426ABC2.png"/>
         </images>
         <page name="Restaurant Menu Screen 1" ID="DCD2F4C8-69D7-4F70-929E-B49C881B6A34" expanded="True" code="g4CTEww5Md" thumbCode="g4CTEww5Md" status="psWhite" isLastOpen="" createdate="2019-11-20 18:44:09" author="311653" modifieddate="2019-12-02 11:42:45" isdeleted="False" isfolder="False" ismodified="False" syncversion="147" lasteditor="311653" isshownode="True">
           <images>
@@ -60,14 +61,15 @@
               <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
               <image key="48C2FBE3E5CDDF2914EC379F5462DE6F.png"/>
             </images>
-            <page name="Order Review Screen" ID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" expanded="True" code="Hq76ZaRTws" thumbCode="Hq76ZaRTws" status="psWhite" isLastOpen="" createdate="2019-11-21 18:34:52" author="311653" modifieddate="2019-12-01 22:23:55" isdeleted="False" isfolder="False" ismodified="False" syncversion="145" lasteditor="311651" isshownode="True">
+            <page name="Order Review Screen" ID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" expanded="True" code="IlErOX3nI8" thumbCode="IlErOX3nI8" status="psWhite" isLastOpen="" createdate="2019-11-21 18:34:52" author="311653" modifieddate="2019-12-02 17:34:26" isdeleted="False" isfolder="False" ismodified="False" syncversion="151" lasteditor="311653" isshownode="True">
               <images>
-                <image key="84E43FD667F4EA128EEFBAD7B03B51F5.svg"/>
                 <image key="69A4D1E5CE13432C6A4F579026917C6A.svg"/>
+                <image key="84E43FD667F4EA128EEFBAD7B03B51F5.svg"/>
                 <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
               </images>
-              <page name="Payment Screen" ID="D8BFDA7F-9783-4698-B641-E95491ED0554" expanded="True" code="iQHDinLZ1s" thumbCode="iQHDinLZ1s" status="psWhite" isLastOpen="" createdate="2019-11-21 18:35:24" author="311653" modifieddate="2019-12-01 22:21:15" isdeleted="False" isfolder="False" ismodified="False" syncversion="145" lasteditor="311651" isshownode="True">
+              <page name="Payment Screen" ID="D8BFDA7F-9783-4698-B641-E95491ED0554" expanded="True" code="gIPPBoaDPL" thumbCode="gIPPBoaDPL" status="psWhite" isLastOpen="" createdate="2019-11-21 18:35:24" author="311653" modifieddate="2019-12-02 16:04:01" isdeleted="False" isfolder="False" ismodified="False" syncversion="150" lasteditor="312050" isshownode="True">
                 <images>
+                  <image key="0ACB019457708067CCA7C8AECB758302.png"/>
                   <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
                 </images>
                 <page name="Order Tracker Screen" ID="F54F71CC-658F-45C8-A965-075A42D7FF2C" expanded="True" code="LS4tEGBT5B" thumbCode="LS4tEGBT5B" status="psWhite" isLastOpen="" createdate="2019-11-21 18:34:41" author="311653" modifieddate="2019-12-01 21:48:37" isdeleted="False" isfolder="False" ismodified="False" syncversion="144" lasteditor="311651" isshownode="True">
@@ -79,20 +81,20 @@
                     <image key="94E9452D20864CF3FBC79CD2C4E76723.svg"/>
                     <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
                   </images>
-                  <page name="Recent Orders" ID="20AF775C-020F-EA11-B464-4A0004C99620" expanded="True" code="mMbxhhSuJt" thumbCode="mMbxhhSuJt" status="psWhite" isLastOpen="" createdate="2019-11-24 16:35:40" author="311651" modifieddate="2019-12-01 22:21:49" isdeleted="False" isfolder="False" ismodified="False" syncversion="145" lasteditor="311651" isshownode="True">
+                  <page name="Recent Orders" ID="20AF775C-020F-EA11-B464-4A0004C99620" expanded="True" code="u1DKvbfwpZ" thumbCode="u1DKvbfwpZ" status="psWhite" isLastOpen="True" createdate="2019-11-24 16:35:40" author="311651" modifieddate="2019-12-06 17:43:19" isdeleted="False" isfolder="False" ismodified="False" syncversion="153" lasteditor="312050" isshownode="True">
                     <images>
+                      <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
                       <image key="27BF6DD5D083782A1CB633DA66BC8750.svg"/>
                       <image key="C21935B8F3432433873507C67A3B0299.png"/>
                       <image key="9DA58F6FCBD77A56BA4CDD80AFFCE333.svg"/>
-                      <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
                     </images>
-                    <page name="Favorites" ID="2A959B82-FF0E-EA11-B464-4A0004C99620" expanded="True" code="Mwsd1G6uEi" thumbCode="Mwsd1G6uEi" status="psWhite" isLastOpen="" createdate="2019-11-24 16:15:15" author="311651" modifieddate="2019-12-01 21:48:58" isdeleted="False" isfolder="False" ismodified="False" syncversion="144" lasteditor="311651" isshownode="True">
+                    <page name="Favorites" ID="2A959B82-FF0E-EA11-B464-4A0004C99620" expanded="True" code="f7My7dTSYC" thumbCode="f7My7dTSYC" status="psWhite" isLastOpen="" createdate="2019-11-24 16:15:15" author="311651" modifieddate="2019-12-06 17:43:53" isdeleted="False" isfolder="False" ismodified="False" syncversion="153" lasteditor="312050" isshownode="True">
                       <images>
+                        <image key="BEB5A07F5D035946C24D8B04858B49DE.svg"/>
                         <image key="C21935B8F3432433873507C67A3B0299.png"/>
                         <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
-                        <image key="BEB5A07F5D035946C24D8B04858B49DE.svg"/>
                       </images>
-                      <page name="Review" ID="4102A4BA-2C9E-4CA7-8CE5-96B927B4D39C" expanded="True" code="3fEEQ7QaMI" thumbCode="3fEEQ7QaMI" status="psWhite" isLastOpen="" createdate="2019-11-21 18:35:53" author="311653" modifieddate="2019-12-02 08:34:40" isdeleted="False" isfolder="False" ismodified="False" syncversion="146" lasteditor="311653" isshownode="True">
+                      <page name="Review" ID="4102A4BA-2C9E-4CA7-8CE5-96B927B4D39C" expanded="True" code="WzdAJM768C" thumbCode="WzdAJM768C" status="psWhite" isLastOpen="" createdate="2019-11-21 18:35:53" author="311653" modifieddate="2019-12-02 17:33:55" isdeleted="False" isfolder="False" ismodified="False" syncversion="151" lasteditor="311653" isshownode="True">
                         <images>
                           <image key="7368E932054EB35095B123FCB5C28A31.svg"/>
                           <image key="F8C2434C2C958119B1E6150C97C501FA.svg"/>
@@ -221,8 +223,9 @@
     <image key="2136402E8497F761115EBF5BCD6A95D0.png"/>
     <image key="91DD8541B0C1F51A4C1AFD3DFF1DF453.png"/>
     <image key="48C2FBE3E5CDDF2914EC379F5462DE6F.png"/>
+    <image key="0ACB019457708067CCA7C8AECB758302.png"/>
   </images>
-  <enterprise syncid="pIx1ATTgXGUK43" author="311653" syncversion="148" ismodified="False" istitlemodified="False" createtime="2019-11-20 18:08:10"/>
+  <enterprise syncid="pIx1ATTgXGUK43" author="311653" syncversion="153" ismodified="False" istitlemodified="False" createtime="2019-11-20 18:08:10"/>
   <deletes>
     <pages/>
     <masters/>

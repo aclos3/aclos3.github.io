@@ -33,14 +33,14 @@
     </control>
     <control controlID="70145F65-020F-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="15" w="358" h="52" zOrder="1">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Food+Flash</text>
       <textSize>60</textSize>
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="189A336D-020F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="52" y="85" w="334" h="63" zOrder="2">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Recent+Orders</text>
       <textSize>40</textSize>
       <textAlign>HaCenter</textAlign>
@@ -49,99 +49,99 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="1EB64679-020F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="168" w="301" h="80" zOrder="3">
+    <control controlID="1EB64679-020F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="168" w="307" h="80" zOrder="3">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%0A+-+Crunchwrap+Supreme%0A+-+Md.+Dr.+Pepper%0A+Total%3A+$6.45</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="96B64679-020F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="269" w="301" h="103" zOrder="4">
+    <control controlID="96B64679-020F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="42" y="269" w="307" h="103" zOrder="4">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%0A+-+Chick-fil-a+sandwhich%0A++++-+no+pickle%0A-+Md.+Sweet+Tea%0A+Total%3A+$12.45</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="F0B64679-020F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="43" y="394" w="301" h="69" zOrder="5">
+    <control controlID="F0B64679-020F-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="43" y="394" w="306" h="69" zOrder="5">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>%0A-+Large+Pepperoni+Pizza%0ATotal%3A+$18.99</text>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="725B3285-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="168" w="56" h="17" zOrder="6">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+    <control controlID="725B3285-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="167" w="52" h="19" zOrder="6">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Taco+Bell</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="009E7288-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="269" w="68" h="17" zOrder="7">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+    <control controlID="009E7288-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="42" y="268" w="62" h="19" zOrder="7">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Chick-fil-a</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="CE28788E-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="43" y="394" w="114" h="17" zOrder="8">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+    <control controlID="CE28788E-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="43" y="393" w="110" h="19" zOrder="8">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Andolini's+Pizzeria</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="E8B014AA-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="268" y="394" w="77" h="17" zOrder="9">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+    <control controlID="E8B014AA-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="268" y="393" w="71" h="19" zOrder="9">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>10%2F02%2F2020</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="ACCA38B7-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="267" y="270" w="77" h="17" zOrder="10">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+    <control controlID="ACCA38B7-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="267" y="269" w="71" h="19" zOrder="10">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>10%2F27%2F2020</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="24EEC6BA-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="269" y="168" w="75" h="17" zOrder="11">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+    <control controlID="24EEC6BA-020F-EA11-B464-4A0004C99620" controlTypeID="Label" x="269" y="167" w="71" h="19" zOrder="11">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>11%2F20%2F2020</text>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="0E8A250D-030F-EA11-B464-4A0004C99620" controlTypeID="Shape" x="349" y="405" w="60" h="45" zOrder="12">
+    <control controlID="0E8A250D-030F-EA11-B464-4A0004C99620" controlTypeID="Shape" x="354" y="405" w="55" h="45" zOrder="12">
       <color>4278190335</color>
       <borderColor>4278190335</borderColor>
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
         <link targetPageID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" linkType="ltPageLink" isApplyIncludePage="False" title="Order+Review+Screen">
-          <area shape="0" alt="" ID="{96BD70CE-B214-EA11-89DE-4A0004C99620}" coords="(0,0,60,45)"/>
+          <area shape="0" alt="" ID="{96BD70CE-B214-EA11-89DE-4A0004C99620}" coords="(0,0,55,45)"/>
         </link>
       </links>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
       <text>Reorder</text>
       <textColor>4294967295</textColor>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
       <radius>8</radius>
     </control>
-    <control controlID="BE47884B-030F-EA11-B464-4A0004C99620" controlTypeID="Shape" x="349" y="284" w="60" h="45" zOrder="13">
+    <control controlID="BE47884B-030F-EA11-B464-4A0004C99620" controlTypeID="Shape" x="354" y="284" w="55" h="45" zOrder="13">
       <color>4278190335</color>
       <borderColor>4278190335</borderColor>
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
         <link targetPageID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" linkType="ltPageLink" isApplyIncludePage="False" title="Order+Review+Screen">
-          <area shape="0" alt="" ID="{920271CE-B214-EA11-89DE-4A0004C99620}" coords="(0,0,60,45)"/>
+          <area shape="0" alt="" ID="{920271CE-B214-EA11-89DE-4A0004C99620}" coords="(0,0,55,45)"/>
         </link>
       </links>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
       <text>Reorder</text>
       <textColor>4294967295</textColor>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
       <radius>8</radius>
     </control>
-    <control controlID="B6C4334E-030F-EA11-B464-4A0004C99620" controlTypeID="Shape" x="349" y="183" w="60" h="45" zOrder="14">
+    <control controlID="B6C4334E-030F-EA11-B464-4A0004C99620" controlTypeID="Shape" x="354" y="183" w="55" h="45" zOrder="14">
       <color>4278190335</color>
       <borderColor>4278190335</borderColor>
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
         <link targetPageID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" linkType="ltPageLink" isApplyIncludePage="False" title="Order+Review+Screen">
-          <area shape="0" alt="" ID="{444671CE-B214-EA11-89DE-4A0004C99620}" coords="(0,0,60,45)"/>
+          <area shape="0" alt="" ID="{444671CE-B214-EA11-89DE-4A0004C99620}" coords="(0,0,55,45)"/>
         </link>
       </links>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
       <text>Reorder</text>
       <textColor>4294967295</textColor>
       <textStyles>[fsBold]</textStyles>
@@ -155,11 +155,17 @@
     <control controlID="7DB7B5D9-09DA-4A2B-A0E4-E1511CD32AB6" controlTypeID="Shape" x="0" y="841" w="153" h="55" zOrder="17">
       <color>16777215</color>
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="F54F71CC-658F-45C8-A965-075A42D7FF2C" linkType="ltPageLink" isApplyIncludePage="False" title="Order+Tracker+Screen">
+          <area shape="0" alt="" ID="{89CCEBE2-2B60-469F-8024-FE8AA1E176FD}" coords="(0,0,153,55)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="4A2CD830-9414-EA11-89DE-4A0004C99620" controlTypeID="Icon" x="307" y="416" w="34" h="34" zOrder="18">
+      <color>4294901760</color>
       <icon>
         <ID/>
         <iconFontName>jdIonicons</iconFontName>
@@ -168,6 +174,7 @@
       <URL>9DA58F6FCBD77A56BA4CDD80AFFCE333.svg</URL>
     </control>
     <control controlID="D61C4943-9414-EA11-89DE-4A0004C99620" controlTypeID="Icon" x="307" y="314" w="34" h="34" zOrder="19">
+      <color>4294901760</color>
       <icon>
         <ID/>
         <iconFontName>jdIonicons</iconFontName>
@@ -176,6 +183,7 @@
       <URL>27BF6DD5D083782A1CB633DA66BC8750.svg</URL>
     </control>
     <control controlID="68347955-9414-EA11-89DE-4A0004C99620" controlTypeID="Icon" x="307" y="205" w="34" h="34" zOrder="20">
+      <color>4294901760</color>
       <icon>
         <ID/>
         <iconFontName>jdIonicons</iconFontName>
@@ -226,7 +234,7 @@
                   <area shape="0" alt="" ID="{FE5E3AF7-0286-4942-93A0-93C14E6BF763}" coords="(1,241,167,289)"/>
                 </link>
               </links>
-              <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
               <text>Account+and+Settings%0AOrder+Options%0AHelp%3A+Tutorial%0ACustomer+Service%0ADelivery+Driver%0AExpand+Menu</text>
               <textSize>14</textSize>
               <lineSpacing>0</lineSpacing>

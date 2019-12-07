@@ -33,13 +33,23 @@
     </control>
     <control controlID="60184AB2-F40E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="46" y="10" w="358" h="52" zOrder="1">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Food+Flash</text>
       <textSize>60</textSize>
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="862A3674-F50E-EA11-B464-4A0004C99620" controlTypeID="Icon" x="167" y="169" w="93" h="93" zOrder="2">
+    <control controlID="747C2978-F50E-EA11-B464-4A0004C99620" controlTypeID="Circle" x="154" y="161" w="120" h="120" zOrder="2">
+      <color>4278216447</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <shapeBorderType>SbEllipse</shapeBorderType>
+      <thickness>4</thickness>
+    </control>
+    <control controlID="862A3674-F50E-EA11-B464-4A0004C99620" controlTypeID="Icon" x="167" y="169" w="93" h="93" zOrder="3">
+      <color>4294967295</color>
       <icon>
         <ID/>
         <iconFontName>jdiconfontB</iconFontName>
@@ -47,15 +57,8 @@
       </icon>
       <URL>42CF9E031360EBC09387427849BF6328.svg</URL>
     </control>
-    <control controlID="747C2978-F50E-EA11-B464-4A0004C99620" controlTypeID="Circle" x="153" y="155" w="120" h="120" zOrder="3">
-      <color>16777215</color>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
-      <textSize>14</textSize>
-      <selectedIndex>-1</selectedIndex>
-      <shapeBorderType>SbEllipse</shapeBorderType>
-    </control>
     <control controlID="802458BD-F50E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="56" y="81" w="315" h="64" zOrder="4">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Account+and+Settings</text>
       <textSize>32</textSize>
       <textAlign>HaCenter</textAlign>
@@ -63,7 +66,7 @@
       <useDefaultTextSize>False</useDefaultTextSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="FEFCDE11-F60E-EA11-B464-4A0004C99620" controlTypeID="Icon" x="259" y="246" w="24" h="24" zOrder="5">
+    <control controlID="FEFCDE11-F60E-EA11-B464-4A0004C99620" controlTypeID="Icon" x="266" y="260" w="24" h="24" zOrder="5">
       <icon>
         <ID/>
         <iconFontName>jdIonicons</iconFontName>
@@ -71,21 +74,21 @@
       </icon>
       <URL>69A4D1E5CE13432C6A4F579026917C6A.svg</URL>
     </control>
-    <control controlID="B8A76E18-F60E-EA11-B464-4A0004C99620" controlTypeID="Circle" x="253" y="242" w="36" h="32" zOrder="6">
+    <control controlID="B8A76E18-F60E-EA11-B464-4A0004C99620" controlTypeID="Circle" x="260" y="256" w="36" h="32" zOrder="6">
       <color>16777215</color>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
       <shapeBorderType>SbEllipse</shapeBorderType>
     </control>
     <control controlID="301E952B-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="40" y="285" w="93" h="31" zOrder="7">
       <opacity>0.5</opacity>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>First+Name</text>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="186CD73A-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="40" y="308" w="93" h="33" zOrder="8">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>John</text>
       <textVAlign>VaMiddle</textVAlign>
       <textStyles>[fsBold]</textStyles>
@@ -93,12 +96,12 @@
     </control>
     <control controlID="0601FD5F-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="40" y="350" w="93" h="31" zOrder="9">
       <opacity>0.5</opacity>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Last+Name</text>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="C646C36B-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="40" y="380" w="93" h="33" zOrder="10">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>Smith</text>
       <textVAlign>VaMiddle</textVAlign>
       <textStyles>[fsBold]</textStyles>
@@ -107,13 +110,13 @@
     </control>
     <control controlID="FC6B6299-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="40" y="424" w="93" h="36" zOrder="11">
       <opacity>0.5</opacity>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Phone+Number</text>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="F0D4C5A6-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="38" y="470" w="162" h="33" zOrder="12">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>%2B1+000-000-0000</text>
       <textVAlign>VaMiddle</textVAlign>
       <textStyles>[fsBold]</textStyles>
@@ -121,13 +124,13 @@
     </control>
     <control controlID="FEDF24CF-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="38" y="528" w="93" h="25" zOrder="13">
       <opacity>0.5</opacity>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Email</text>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="F02194DB-F60E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="38" y="563" w="179" h="33" zOrder="14">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <text>example@email.com</text>
       <textVAlign>VaMiddle</textVAlign>
       <textStyles>[fsBold]</textStyles>
@@ -135,13 +138,13 @@
     </control>
     <control controlID="2E304F01-F70E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="32" y="606" w="93" h="23" zOrder="15">
       <opacity>0.5</opacity>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Password</text>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="662A910A-F70E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="38" y="640" w="179" h="33" zOrder="16">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
       <textVAlign>VaMiddle</textVAlign>
       <textStyles>[fsBold]</textStyles>
       <selectedIndex>-1</selectedIndex>
@@ -171,7 +174,7 @@
       <URL>40E39A09158BEC58EE5C5769A953E8C0.svg</URL>
     </control>
     <control controlID="E83BAF25-F80E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="38" y="683" w="115" h="25" zOrder="20">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Saved+Places</text>
       <textSize>16</textSize>
       <useDefaultTextSize>False</useDefaultTextSize>
@@ -195,13 +198,13 @@
     </control>
     <control controlID="F06D1A71-F80E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="72" y="708" w="299" h="29" zOrder="23">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>123+Home+St.+Philadelphia%2C+PA</text>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="FA6E6C9B-F80E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="72" y="762" w="299" h="29" zOrder="24">
       <borderVisible>True</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>456+Work+Ave.+Philadelphia%2C+PA</text>
       <selectedIndex>-1</selectedIndex>
     </control>
@@ -216,7 +219,7 @@
     <control controlID="AC1097C7-F80E-EA11-B464-4A0004C99620" controlTypeID="TextArea" x="72" y="812" w="299" h="29" zOrder="26">
       <borderVisible>True</borderVisible>
       <opacity>0.5</opacity>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Add+a+new+location</text>
       <selectedIndex>-1</selectedIndex>
     </control>
@@ -224,7 +227,7 @@
     <control controlID="555DD171-1FE8-4467-BCA5-9F8F387EEA3C" controlTypeID="Shape" x="0" y="841" w="153" h="55" zOrder="28">
       <color>16777215</color>
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
@@ -271,7 +274,7 @@
                   <area shape="0" alt="" ID="{FE5E3AF7-0286-4942-93A0-93C14E6BF763}" coords="(1,241,167,289)"/>
                 </link>
               </links>
-              <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
               <text>Account+and+Settings%0AOrder+Options%0AHelp%3A+Tutorial%0ACustomer+Service%0ADelivery+Driver%0AExpand+Menu</text>
               <textSize>14</textSize>
               <lineSpacing>0</lineSpacing>

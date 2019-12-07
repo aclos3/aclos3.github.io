@@ -1,5 +1,5 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
-  <controls controlCount="36">
+<mockup version="5.3" minAllowVersion="5.3" ID="EA0A9F08-851A-4D70-829A-851BC3FD0CD3" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="37">
     <control controlID="9D01ED51-22FC-4A96-929B-BD8763F2A3CE" controlTypeID="Shape" x="1" y="404" w="399" h="164" zOrder="0">
       <borderColor>4278190080</borderColor>
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
@@ -127,7 +127,7 @@
       <placeHolder>Enter+Your+Address...</placeHolder>
     </control>
     <control controlID="75FE5D25-2652-4DAB-8186-5D38B1DB1498" controlTypeID="SwitchIOS" x="128" y="276" w="60" h="30" zOrder="10">
-      <onColor>4278190335</onColor>
+      <onColor>4278216447</onColor>
     </control>
     <control controlID="3D3E94B7-25DF-42DF-89E4-79BC9DDF081E" controlTypeID="Shape" x="0" y="168" w="99" h="39" zOrder="11">
       <borderVisible>False</borderVisible>
@@ -219,10 +219,10 @@
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="C37E5AF3-864B-4959-BC31-9F9CFD79E899" controlTypeID="SwitchIOS" x="334" y="277" w="60" h="30" zOrder="17">
-      <onColor>4278190335</onColor>
+      <onColor>4278216447</onColor>
     </control>
     <control controlID="BEA5265B-CFD0-40CA-810F-DE63A8C7C462" controlTypeID="SwitchIOS" x="334" y="327" w="60" h="30" zOrder="18">
-      <onColor>4278190335</onColor>
+      <onColor>4278216447</onColor>
     </control>
     <control controlID="ECDF0B98-F61F-47C6-8942-C4D7DC139B3B" controlTypeID="TextArea" x="187" y="428" w="208" h="140" zOrder="19">
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
@@ -289,11 +289,11 @@
     <control controlID="59A4DBF8-2255-456A-9324-E1820AEDFF47" controlTypeID="Keyboard" x="0" y="550" w="414" h="291" zOrder="24">
       <isShow>False</isShow>
     </control>
-    <control controlID="93A3A1EF-BED4-4BA7-B51E-21E2FD91E7D9" controlTypeID="TextArea" x="139" y="779" w="164" h="52" zOrder="25">
+    <control controlID="93A3A1EF-BED4-4BA7-B51E-21E2FD91E7D9" controlTypeID="TextArea" x="113" y="779" w="190" h="52" zOrder="25">
       <borderVisible>True</borderVisible>
       <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
         <link targetPageID="2A959B82-FF0E-EA11-B464-4A0004C99620" linkType="ltPageLink" isApplyIncludePage="False" title="Favorites+-+Jared">
-          <area shape="0" alt="" ID="{CDD3F84C-F362-4080-8406-F2F33EE1039B}" coords="(0,0,164,52)"/>
+          <area shape="0" alt="" ID="{CDD3F84C-F362-4080-8406-F2F33EE1039B}" coords="(0,0,190,52)"/>
         </link>
       </links>
       <font family="Segoe+UI" displayName="Segoe+UI+Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False"/>
@@ -318,7 +318,16 @@
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="901B4D0D-AE14-EA11-89DE-4A0004C99620" controlTypeID="PopupMenu" x="-102" y="69" w="46" h="46" zOrder="28">
+    <control controlID="D11EF2D7-4B5D-4ABD-BFD9-18D34D6188E5" controlTypeID="Icon" x="119" y="793" w="24" h="24" zOrder="28">
+      <color>4294901760</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62343</iconCode>
+      </icon>
+      <URL>27BF6DD5D083782A1CB633DA66BC8750.svg</URL>
+    </control>
+    <control controlID="901B4D0D-AE14-EA11-89DE-4A0004C99620" controlTypeID="PopupMenu" x="-102" y="69" w="46" h="46" zOrder="29">
       <groupChildrenDescriptors>
         <control controlID="4E1C4D0D-AE14-EA11-89DE-4A0004C99620" controlTypeID="Panel" x="0" y="0" w="414" h="896" zOrder="0">
           <locked>True</locked>

@@ -1,4 +1,4 @@
-<mockup version="5.3" minAllowVersion="5.3" ID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="4EFEBB84-744F-42D2-91DD-4F03EB8FD0E0" platform="MtMobile" defaultW="414" defaultH="896" measureW="414" measureH="896" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
   <controls controlCount="33">
     <control controlID="82B69C59-8F4F-431C-9057-32DEB6CD5B66" controlTypeID="StatusBar(Android)" x="0" y="0" w="414" h="20" zOrder="0"/>
     <control controlID="C84AFBDA-BAF4-4B61-8D97-3632C818BD4A" controlTypeID="NavigationBar" x="0" y="841" w="414" h="55" zOrder="1"/>
@@ -35,7 +35,7 @@
     </control>
     <control controlID="E645DE62-150A-452B-A35D-ED595F94C20E" controlTypeID="Shape" x="42" y="30" w="358" h="52" zOrder="3">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Food+Flash</text>
       <textSize>60</textSize>
       <useDefaultTextSize>False</useDefaultTextSize>
@@ -43,7 +43,7 @@
     </control>
     <control controlID="72C8D08F-0B0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="112" w="331" h="51" zOrder="4">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Review+Order</text>
       <textSize>40</textSize>
       <textStyles>[fsUnderline]</textStyles>
@@ -52,7 +52,7 @@
     </control>
     <control controlID="18A660BD-0B0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="173" w="331" h="33" zOrder="5">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Delivery+Date%3A</text>
       <textSize>14</textSize>
       <textAlign>HaLeft</textAlign>
@@ -60,7 +60,7 @@
     </control>
     <control controlID="8832BD0E-0C0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="216" w="331" h="33" zOrder="6">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Delivery+Time%3A</text>
       <textSize>14</textSize>
       <textAlign>HaLeft</textAlign>
@@ -68,7 +68,7 @@
     </control>
     <control controlID="EEC14A13-0C0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="259" w="331" h="33" zOrder="7">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Address%3A+</text>
       <textSize>14</textSize>
       <textAlign>HaLeft</textAlign>
@@ -101,7 +101,7 @@
           </events>
         </entry>
       </interactiveData>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>5%3A00+PM</text>
       <textSize>14</textSize>
       <textAlign>HaLeft</textAlign>
@@ -134,7 +134,7 @@
           </events>
         </entry>
       </interactiveData>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>123+Main+St.%2C+Philadelphia%2C+PA</text>
       <textSize>14</textSize>
       <textAlign>HaLeft</textAlign>
@@ -142,7 +142,7 @@
     </control>
     <control controlID="E4E2376E-0C0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="322" w="98" h="35" zOrder="10">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Items%3A</text>
       <textSize>18</textSize>
       <textAlign>HaLeft</textAlign>
@@ -151,7 +151,7 @@
     </control>
     <control controlID="0EA92099-0D0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="357" w="88" h="24" zOrder="11">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Item+Name</text>
       <textSize>14</textSize>
       <textAlign>HaLeft</textAlign>
@@ -160,7 +160,7 @@
     </control>
     <control controlID="58F137AE-0D0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="140" y="357" w="49" h="24" zOrder="12">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Qty</text>
       <textSize>14</textSize>
       <textAlign>HaRight</textAlign>
@@ -169,7 +169,7 @@
     </control>
     <control controlID="524519CA-0D0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="199" y="357" w="120" h="24" zOrder="13">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Price</text>
       <textSize>14</textSize>
       <textStyles>[fsUnderline]</textStyles>
@@ -177,7 +177,7 @@
     </control>
     <control controlID="1E2ED5DB-0D0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="411" w="88" h="149" zOrder="14">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Lg.+Pepperoni+Pizza%0A%0AMd.+Coke%0A++++%2B+Vanilla%0A%0ACheesy+Bread</text>
       <textSize>14</textSize>
       <textAlign>HaLeft</textAlign>
@@ -185,20 +185,20 @@
     </control>
     <control controlID="8864860C-0E0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="140" y="407" w="68" h="153" zOrder="15">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>1%0A%0A%0A2%0A%0A%0A1</text>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="B88E2527-0E0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="218" y="407" w="101" h="153" zOrder="16">
       <borderVisible>False</borderVisible>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>$18.99%0A%0A%0A$2.50%0A%0A%0A$3.50</text>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
     <control controlID="48015D74-0E0E-EA11-B464-4A0004C99620" controlTypeID="Shape" x="42" y="590" w="277" h="36" zOrder="17">
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Total+++++++++++++++++++++++++++++++++++++++++++++$27.49</text>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
@@ -245,7 +245,7 @@
           <area shape="0" alt="" ID="{8FF0FF53-86F2-44D9-8921-D3FD9CEA43F8}" coords="(0,0,114,56)"/>
         </link>
       </links>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <text>Next</text>
       <textSize>18</textSize>
       <useDefaultTextSize>False</useDefaultTextSize>
@@ -279,7 +279,7 @@
           </events>
         </entry>
       </interactiveData>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
       <text>03%2F10%2F2019</text>
       <textSize>14</textSize>
       <lineSpacing>0</lineSpacing>
@@ -294,7 +294,7 @@
           <area shape="0" alt="" ID="{486932F5-574C-4307-9931-F2BE9868AD4C}" coords="(0,0,153,55)"/>
         </link>
       </links>
-      <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
       <textSize>14</textSize>
       <selectedIndex>-1</selectedIndex>
     </control>
@@ -304,7 +304,7 @@
     <control controlID="BC45713A-B114-EA11-89DE-4A0004C99620" controlTypeID="Calendar" x="234" y="206" w="180" h="150" zOrder="26">
       <isShow>False</isShow>
     </control>
-    <control controlID="72D8F123-B314-EA11-89DE-4A0004C99620" controlTypeID="Keyboard" x="0" y="605" w="414" h="291" zOrder="27">
+    <control controlID="72D8F123-B314-EA11-89DE-4A0004C99620" controlTypeID="Keyboard" x="0" y="550" w="414" h="291" zOrder="27">
       <isShow>False</isShow>
     </control>
     <control controlID="EC677D20-AE14-EA11-89DE-4A0004C99620" controlTypeID="PopupMenu" x="-101" y="86" w="46" h="46" zOrder="28">
@@ -350,7 +350,7 @@
                   <area shape="0" alt="" ID="{FE5E3AF7-0286-4942-93A0-93C14E6BF763}" coords="(1,241,167,289)"/>
                 </link>
               </links>
-              <font family=".AppleSystemUIFont" displayName=".AppleSystemUIFont" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+              <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
               <text>Account+and+Settings%0AOrder+Options%0AHelp%3A+Tutorial%0ACustomer+Service%0ADelivery+Driver%0AExpand+Menu</text>
               <textSize>14</textSize>
               <lineSpacing>0</lineSpacing>
