@@ -1,10 +1,10 @@
 
 
-function myFunction() {
+function navClick() {
   var x = document.getElementById("homenav");
-  if (x.className === "topnav") {
+  if (x.className === "nav") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "nav";
   }
 }
