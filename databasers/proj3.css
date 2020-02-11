@@ -5,7 +5,7 @@ body {
   
   .nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(36, 74, 155);
   }
   
   .nav a {
@@ -24,7 +24,8 @@ body {
   }
   
   .nav a.active {
-    background-color: rgb(36, 74, 155);
+   
+    background-color: #333;
     color: white;
   }
   
@@ -36,7 +37,39 @@ body {
     width:550px;
     margin: 0 auto;
 }
-  
+
+#results {
+  width: 100%;
+  margin-top: 20px;
+  display:none;
+}
+.fk {
+  color: darkblue;
+}
+
+.pk {
+  color: darkgreen;
+  text-decoration: underline;
+}
+.instr {
+  color:red;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
   @media screen and (max-width: 600px) {
     .nav a:not(:first-child) {display: none;}
     .nav a.icon {

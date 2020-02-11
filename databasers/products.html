@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="proj3.css" rel = "stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="nav" id="homenav">
+  <a href="index.html">Home</a>
+  <a href="customers.html">Customers</a>
+  <a href="employees.html">Employees</a>
+  <a href="sales.html">Sales</a>
+  <a href="products.html" class="active">Products</a>
+  <a href="manager.html">Manager</a>
+  <a href="javascript:void(0);" class="icon" onclick="navClick()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Tropical Fish Emporium</h2>
+  <p>Search for and delete products from the database.</p>
+
+  <form method = "post">
+    <fieldset>
+
+      <legend>Search for a Product:</legend>
+  			<label>Product Name:
+          <input type ="search" name ="name">
+        </label>
+        <br/><br/>
+  			<label>Price
+          <input type ="search" name ="price">
+        </label>
+        <br/><br/>
+  			<label>Description:
+          <input type ="search" name ="description">
+        </label>
+  			<br/><br/>
+        <button onclick="showResults();return false;">Submit</button>
+        <span class="instr"><--Click me to see some sample data.</span>
+    </fieldset>
+    <div id="results">
+      <table>
+        <tr>
+          <th>select</th>
+          <th class="pk">productId</th>
+          <th>name</th>
+          <th>price</th>
+          <th>description</th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check1"></th>
+          <td>1</td>
+          <td>Yellow Tang</td>
+          <td>29.99</td>
+          <td>Bright yellow colored, peaceful plant eater that grows to 8 inches.</td>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check2"></th>
+          <td>2</td>
+          <td>Maroon Clownfish</td>
+          <td>19.99</td>
+          <td>Dark red with white or yellow vertical stripes, can be agressive towards others, omnivore. Grows to 5 inches.</a></td>
+        </tr>
+      </table>
+      <p><button type="delete">Delete Products</button></p>
+    </div>
+
+  		
+  </form>
+
+</div>
+
+<script src="proj3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="proj3.css" rel = "stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="nav" id="homenav">
+  <a href="index.html">Home</a>
+  <a href="customers.html">Customers</a>
+  <a href="employees.html">Employees</a>
+  <a href="sales.html" class="active">Sales</a>
+  <a href="products.html">Products</a>
+  <a href="manager.html" >Manager</a>
+  <a href="javascript:void(0);" class="icon" onclick="navClick()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Tropical Fish Emporium</h2>
+  <p>Search for and delete sales here.</p>
+
+  <form method = "post">
+    <fieldset>
+
+      <legend>Search for a Sale:</legend>
+  			<label>Sale ID:
+          <input type ="search" name ="saleID">
+        </label>
+        <br/><br/>
+  			<label>Employee ID (who comlpeted the sale):
+          <input type ="search" name ="employeeID">
+        </label>
+        <br/><br/>
+  			<label>Customer ID (who puchased the product):
+          <input type ="search" name ="customerID">
+        </label>
+  			<br/><br/>
+  			<label>Transaction Date:
+          <input type ="date" name ="transactionDate">
+        </label>
+  			<br/><br/>
+  			<label>Purchase Total (including tax):
+          <input type ="search" name ="totalPurchase">
+        </label>
+  			<br/><br/>
+
+  			<label>Store Location: </label>
+  				<select name = "classDropDown">
+  					<option value = "Bend" selected>Bend, OR</option>
+  					<option value = "Portland" selected>Portland, OR</option>
+  					<option value = "Vancouver" selected>Vancouver, WA</option>
+          </select>
+          <br/><br/>
+          <button onclick="showResults();return false;">Submit</button>
+          <span class="instr"><--Click me to see some sample data.</span>
+    </fieldset>
+    
+    <div id="results">
+      <table>
+        <tr>
+          <th>select</th>
+          <th class="pk">saleId</th>
+          <th class="fk">employeeId</th>
+          <th class="fk">customerId</th>
+          <th>transactionDate</th>
+          <th>totalPurchase</th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check1"></th>
+          <td>1</td>
+          <td>14</td>
+          <td>245</td>
+          <td>8/18/2019</td>
+          <td>$47.24</td>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check2"></th>
+          <td>2</td>
+          <td>5</td>
+          <td>112</td>
+          <td>12/22/2019</td>
+          <td>$58.98</td>
+        </tr>
+      </table>
+      <p><button type="delete">Delete Sale</button></p>
+    </div>
+
+  	
+  </form>
+
+</div>
+
+<script src="proj3.js"></script>
+
+</body>
+</html>

@@ -10,10 +10,11 @@
 
 <div class="nav" id="homenav">
   <a href="index.html">Home</a>
+  <a href="customers.html">Customers</a>
   <a href="employees.html" class="active">Employees</a>
-  <a href="#viewSales">View Sales</a>
-  <a href="#addSale">Add Sale</a>
-  <a href="#viewProducts">View Products</a>
+  <a href="sales.html">Sales</a>
+  <a href="products.html">Products</a>
+  <a href="manager.html">Manager</a>
   <a href="javascript:void(0);" class="icon" onclick="navClick()">
     <i class="fa fa-bars"></i>
   </a>
@@ -21,12 +22,137 @@
 
 <div style="padding-left:16px">
   <h2>Tropical Fish Emporium</h2>
-  <p>Here is where characters will be added to the database.</p>
+  <p>Search for, UPDATE and delete employees here.</p>
+
+  <form method = "post">
+    <fieldset>
+
+      <legend>Search Employee Here:</legend>
+  			<label>First Name:
+          <input type ="search" name ="firstName">
+        </label>
+        <br/><br/>
+  			<label>Last Name:
+          <input type ="search" name ="lastName">
+        </label>
+        <br/><br/>
+        <label>Title:
+          <input type ="search" name ="title">
+        </label>
+        <br/><br/>
+  			<label>Shift Start-Time:
+          <input type ="time" name ="startTime">
+        </label>
+  			<br/><br/>
+  			<label>Shift End-Time:
+          <input type ="time" name ="endTime">
+        </label>
+  			<br/><br/>
+  			<label>Hourly Rate:
+          <input type ="number" name ="hourlyRate">
+        </label>
+  			<br/><br/>
+
+  			<label>Part-Time? </label>
+  				<select name = "partTime">
+  					<option value = "TRUE" selected> Yes</option>
+  					<option value = "FALSE" selected> No</option>
+  				</select>
+
+  			<label>Store Location: </label>
+  				<select name = "classDropDown">
+  					<option value = "Bend" selected>Bend, OR</option>
+  					<option value = "Portland" selected>Portland, OR</option>
+  					<option value = "Vancouver" selected>Vancouver, WA</option>
+          </select>
+          <br/><br/>
+          <button onclick="showResults();return false;">Submit</button>
+          <span class="instr"><--Click me to see some sample data.</span>
+
+    </fieldset>
+    
+    <div id="results">
+      <table>
+        <tr>
+          <th>select</th>
+          <th class="pk">employeeId</th>
+          <th>storeId</th>
+          <th>title</th>
+          <th>startTime</th>
+          <th>stopTime</th>
+          <th>hourlyRate</th>
+          <th>partTime</th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check1"></th>
+          <td>7</td>
+          <td>2</td>
+          <td>store manager</td>
+          <td>8:00am</td>
+          <td>5:00pm</td>
+          <td>$23</td>
+          <td>False</td>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check2"></th>
+          <td>13</td>
+          <td>1</td>
+          <td>sales associate</td>
+          <td>10:00am</td>
+          <td>2:00pm</td>
+          <td>$15</td>
+          <td>True</td>
+        </tr>
+      </table>
+      <p><button type="delete">Delete Employee</button></p>
+    </div>
+
+      <fieldset>
+      <legend>Enter Updated Employee Details:</legend>
+  			<label>First Name:
+          <input type ="text" name ="firstName">
+        </label>
+        <br><br>
+  			<label>Last Name:
+          <input type ="text" name ="lastName">
+        </label>
+        <br/><br/>
+        <label>Title:
+          <input type ="text" name ="title">
+        </label>
+        <br/><br/>
+  			<label>Shift Start-Time:
+          <input type ="time" name ="startTime">
+        </label>
+  			<br/><br/>
+  			<label>Shift End-Time:
+          <input type ="time" name ="endTime">
+        </label>
+  			<br/><br/>
+  			<label>Hourly Rate:
+          <input type ="number" name ="hourlyRate">
+        </label>
+  			<br/><br/>
+
+  			<label>Part-Time? </label>
+  				<select name = "partTime">
+  					<option value = "TRUE" selected> Yes</option>
+  					<option value = "FALSE" selected> No</option>
+  				</select>
+
+  			<label>Store Location: </label>
+  				<select name = "classDropDown">
+  					<option value = "Bend" selected>Bend, OR</option>
+  					<option value = "Portland" selected>Portland, OR</option>
+  					<option value = "Vancouver" selected>Vancouver, WA</option>
+  				</select>
+      <p><button type="updateEmployee">Update Employee</button></p>
+    </fieldset> 
+  </form>
+
 </div>
 
 <script src="proj3.js"></script>
-
-
 
 </body>
 </html>

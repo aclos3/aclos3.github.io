@@ -8,3 +8,10 @@ function navClick() {
     x.className = "nav";
   }
 }
+
+function showResults() {
+  var y = document.getElementById("results");
+    y.style.display = "block";
+   // var z = document.getElementByClassName("instr");
+    //z.style.display = "hidden";
+}

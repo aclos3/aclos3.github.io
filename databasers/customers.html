@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="proj3.css" rel = "stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="nav" id="homenav">
+  <a href="index.html">Home</a>
+  <a href="customers.html" class="active">Customers</a>
+  <a href="employees.html">Employees</a>
+  <a href="sales.html">Sales</a>
+  <a href="products.html">Products</a>
+  <a href="manager.html">Manager</a>
+  <a href="javascript:void(0);" class="icon" onclick="navClick()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Tropical Fish Emporium</h2>
+  <p>Search for and delete customers here.</p>
+
+  <form method = "post">
+    <fieldset>
+
+      <legend>Search for a Customer:</legend>
+  			<label>First Name:
+          <input type ="text" name ="firstName">
+        </label>
+        <br/><br/>
+  			<label>Last Name:
+          <input type ="text" name ="lastName">
+        </label>
+        <br/><br/>
+  			<label>E-mail Address:
+          <input type ="text" name ="email">
+        </label>
+  			<br/><br/>
+        <button onclick="showResults();return false;">Submit</button>
+        <span class="instr"><--Click me to see some sample data.</span>
+    </fieldset>
+    <div id="results">
+      <table>
+        <tr>
+          <th>select</th>
+          <th class="pk">customerId</th>
+          <th>email</th>
+          <th>memberSince</th>
+          <th>firstName</th>
+          <th>lastName</th>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check1"></th>
+          <td>346</td>
+          <td>name@name.com</td>
+          <td>3/15/2002</td>
+          <td>Bob</td>
+          <td>Saget</td>
+        </tr>
+        <tr>
+          <th><input type="checkbox" name="check2"></th>
+          <td>211</td>
+          <td>name2@name.com</td>
+          <td>2/29/2013</td>
+          <td>Lucy</td>
+          <td>Smith</td>
+        </tr>
+      </table>
+      <p><button type="delete">Delete Customer</button></p>
+    </div>  
+  </form>
+</div>
+
+<script src="proj3.js"></script>
+
+</body>
+</html>
