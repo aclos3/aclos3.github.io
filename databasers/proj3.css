@@ -38,6 +38,15 @@ body {
     margin: 0 auto;
 }
 
+.homeContent {
+  padding-left: 16px;
+}
+
+#resFrame {
+  width: 1200px;
+  height: 800px;
+}
+
 #results {
   width: 100%;
   margin-top: 20px;
