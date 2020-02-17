@@ -1,153 +1,137 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="proj3.css" rel = "stylesheet" type="text/css">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="proj3.css" rel = "stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="nav" id="homenav">
+      <a href="index.html">Home</a>
+      <a href="customers.html">Customers</a>
+      <a href="employees.html">Employees</a>
+      <a href="sales.html">Sales</a>
+      <a href="products.html">Products</a>
+      <a href="manager.html" class="active">Manager</a>
+      <a href="javascript:void(0);" class="icon" onclick="navClick()">
+        <i class="fa fa-bars"></i></a>
+    </div>
 
-</head>
-<body>
+    <div style="padding-left:16px">
+      <h2>Tropical Fish Emporium</h2>
+        <p>Here customers, employees, sales, and products can be added to the database.</p>
+          <form method = "post">
+<!--CUSTOMERS-->
+      <fieldset>
+        <legend>Add Customer Here:</legend>
+          <label>First Name:
+            <input type ="text" name ="firstName">
+          </label><br><br>
+          <label>Last Name:
+            <input type ="text" name ="lastName">
+          </label><br><br>
+          <label>E-mail Address:
+            <input type ="text" name ="email">
+          </label><br><br>
+          <label>Member Since:
+            <input type ="date" name ="memberSince">
+          </label><br><br>
 
-<div class="nav" id="homenav">
-  <a href="index.html">Home</a>
-  <a href="customers.html">Customers</a>
-  <a href="employees.html">Employees</a>
-  <a href="sales.html">Sales</a>
-  <a href="products.html">Products</a>
-  <a href="manager.html" class="active">Manager</a>
-  <a href="javascript:void(0);" class="icon" onclick="navClick()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+          <input type="submit" value="Submit">
 
-<div style="padding-left:16px">
-  <h2>Tropical Fish Emporium</h2>
-  <p>Here customers, employees, sales, and products can be added to the database.</p>
-
-  <form method = "post">
-    <fieldset>
-    <!--CUSTOMERS-->
-      <legend>Add Customer Here:</legend>
-        <label>First Name:
-          <input type ="text" name ="firstName">
-        </label>
-        <br/><br/>
-        <label>Last Name:
-          <input type ="text" name ="lastName">
-        </label>
-        <br/><br/>
-        <label>E-mail Address:
-          <input type ="text" name ="email">
-        </label>
-        <br/><br/>
-        <label>Member Since:
-          <input type ="date" name ="memberSince">
-        <br/><br/>
-      <input type="submit" value="Submit">
-        </fieldset>
-        <!--EMPLOYEES-->
-        <fieldset>
-      <legend>Add Employee Here:</legend>
-  			<label>First Name:
-          <input type ="text" name ="firstName">
-        </label>
-        <br/><br/>
-  			<label>Last Name:
-          <input type ="text" name ="lastName">
-        </label>
-        <br/><br/>
-  			<label>Shift Start-Time:
-          <input type ="time" name ="startTime">
-        </label>
-  			<br/><br/>
-  			<label>Shift End-Time:
-          <input type ="time" name ="endTime">
-        </label>
-  			<br/><br/>
-  			<label>Hourly Rate:
-          <input type ="number" name ="hourlyRate">
-        </label>
-  			<br/><br/>
-  			<label>Part-Time? </label>
-  				<select name = "partTime">
-  					<option value = "TRUE" selected> Yes</option>
-  					<option value = "FALSE" selected> No</option>
-          </select>
-  			<label>Store Location: </label>
-  				<select name = "classDropDown">
-  					<option value = "Bend" selected>Bend, OR</option>
-  					<option value = "Portland" selected>Portland, OR</option>
-  					<option value = "Vancouver" selected>Vancouver, WA</option>
-  			   </select>
-      <input type="submit" value="Submit">
       </fieldset>
-    </fieldset>
-    <!--Products-->
-    <fieldset>
-      <legend>Add Product Here:</legend>
-        <p>Adding a product will add a product record to the database, and will also add a row to the intersection table
-          "products_sales." The primary key of the product record will be a <strong>foreign key</strong> in the product_sales table.
-        </p>
-        <label>Product Name:
-          <input type ="text" name ="name">
-        </label>
-        <br/><br/>
-        <label>Price
-          <input type ="price" name ="price">
-        </label>
-        <br/><br/>
-        <label>Description:
-          <input type ="text" name ="description">
-        </label>
-        <br/><br/>
-        <label>Image:
-          <input type ="url" name ="image_url">
-        </label>
-        <br/><br/>
-        <input type="submit" value="Submit">
-    </fieldset>
-    
-      <!--SALES-->
-    <fieldset>
-      <legend>Add Sale Here:</legend>
-      <p>Adding a sale will add a sale record to the database, and will also add a row to the intersection table
-        "products_sales." The primary key of the sale record will be a <strong>foreign key</strong> in the product_sales table.
-      </p>
-        <label>Sale ID:
-          <input type ="id" name ="saleID">
-        </label>
-        
-        <br/><br/>
-        <label>Employee ID (who comlpeted the sale):
-          <input type ="id" name ="employeeID">
-        </label>
-        <br/><br/>
-        <label>Customer ID (optional):
-          <input type ="id" name ="customerID">
-        </label>
-        <strong>customer ID is optionally related to a sale since not every transaction will be made by a customer with a profile.</strong>
-        <br/><br/>
-        <label>Transaction Date:
-          <input type ="date" name ="transactionDate">
-        </label>
-        <br/><br/>
-        <label>Purchase Total (including tax):
-          <input type ="price" name ="totalPurchase">
-        </label>
-        <br/><br/>
-        <label>Store Location: </label>
-          <select name = "classDropDown">
-            <option value = "Bend" selected>Bend, OR</option>
-            <option value = "Portland" selected>Portland, OR</option>
-            <option value = "Vancouver" selected>Vancouver, WA</option>
-          </select>
+
+<!--EMPLOYEES-->
+      <fieldset>
+        <legend>Add Employee Here:</legend>
+  			   <label>First Name:
+             <input type ="text" name ="firstName">
+           </label><br><br>
+  			   <label>Last Name:
+             <input type ="text" name ="lastName">
+           </label><br><br>
+  			   <label>Shift Start-Time:
+             <input type ="time" name ="startTime">
+           </label><br><br>
+  			   <label>Shift End-Time:
+             <input type ="time" name ="endTime">
+           </label><br><br>
+  			   <label>Hourly Rate:
+             <input type ="number" name ="hourlyRate">
+           </label><br><br>
+  			   <label>Part-Time?</label>
+  				   <select name = "partTime">
+  					        <option value = "TRUE" selected> Yes</option>
+  					        <option value = "FALSE" selected> No</option>
+             </select><br><br>
+  			   <label>Store Location:</label>
+            <select name = "classDropDown">
+  					       <option value = "Bend" selected>Bend, OR</option>
+  					       <option value = "Portland" selected>Portland, OR</option>
+  					       <option value = "Vancouver" selected>Vancouver, WA</option>
+  			    </select><br><br>
+
+            <input type="submit" value="Submit">
+
+      </fieldset>
+
+<!--Products-->
+      <fieldset>
+        <legend>Add Product Here:</legend>
+          <p>Adding a product will add a product record to the database, and will also add a row to the intersection table
+          "products_sales." The primary key of the product record will be a <strong>foreign key</strong> in the product_sales table.</p>
+          <label>Product Name:
+            <input type ="text" name ="name">
+          </label><br><br>
+          <label>Price
+            <input type ="price" name ="price">
+          </label><br><br>
+          <label>Description:
+            <input type ="text" name ="description">
+          </label><br><br>
+          <label>Image:
+            <input type ="url" name ="image_url">
+          </label><br><br>
+
+          <input type="submit" value="Submit">
+
+      </fieldset>
+
+<!--SALES-->
+      <fieldset>
+        <legend>Add Sale Here:</legend>
+          <p>Adding a sale will add a sale record to the database, and will also add a row to the intersection table
+            "products_sales." The primary key of the sale record will be a <strong>foreign key</strong> in the product_sales table.</p>
+          <label>Sale ID:
+            <input type ="id" name ="saleID">
+          </label><br><br>
+          <label>Employee ID (who comlpeted the sale):
+            <input type ="id" name ="employeeID">
+          </label><br><br>
+          <label>Customer ID (optional):
+            <input type ="id" name ="customerID">
+          </label>
+          <strong>customer ID is optionally related to a sale since not every transaction will be made by a customer with a profile.</strong><br><br>
+          <label>Transaction Date:
+            <input type ="date" name ="transactionDate">
+          </label><br><br>
+          <label>Purchase Total (including tax):
+            <input type ="price" name ="totalPurchase">
+          </label><br><br>
+          <label>Store Location: </label>
+            <select name = "classDropDown">
+              <option value = "Bend" selected>Bend, OR</option>
+              <option value = "Portland" selected>Portland, OR</option>
+              <option value = "Vancouver" selected>Vancouver, WA</option>
+            </select>
+          
       <input type="submit" value="Submit">
-    </fieldset>
-  </form>
 
-</div>
-<footer>(c)Tropical Fish Emporium</footer>
-<script src="proj3.js"></script>
+      </fieldset>
 
-</body>
+    </form>
+    </div>
+    <footer>© Tropical Fish Emporium</footer>
+    <script src="proj3.js"></script>
+  </body>
 </html>
