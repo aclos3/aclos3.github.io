@@ -109,9 +109,14 @@
             <input type ="id" name ="employeeID">
           </label><br><br>
           <label>Customer ID (optional):
-            <input type ="id" name ="customerID">
+            <select id="customerID">
+              <option value="3">3: James Anderson</option>
+              <option value="12">12: Sally Brands</option>
+              <option value="5">5: Andrew Clos</option>
+              <option value="1">1: Haley Woehrle</option>
+            </select>
           </label>
-          <strong>customer ID is optionally related to a sale since not every transaction will be made by a customer with a profile.</strong><br><br>
+          <strong>customer ID will dynamically populate with all customers using a SELECT query on the `Customers` table.</strong><br><br>
           <label>Transaction Date:
             <input type ="date" name ="transactionDate">
           </label><br><br>

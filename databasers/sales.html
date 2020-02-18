@@ -51,32 +51,66 @@
         </fieldset>
 
         <div id="results">
+          <fieldset >
+            <legend>Table: Sales</legend>
+            <table>
+              <tr>
+                <th>select</th>
+                <th class="pk">saleId</th>
+                <th class="fk">employeeId</th>
+                <th class="fk">customerId</th>
+                <th>transactionDate</th>
+                <th>totalPurchase</th>
+              </tr>
+              <tr>
+                <th><input type="checkbox" name="check1"></th>
+                <td>1</td>
+                <td>14</td>
+                <td>245</td>
+                <td>8/18/2019</td>
+                <td>$47.24</td>
+              </tr>
+              <tr>
+                <th><input type="checkbox" name="check2"></th>
+                <td>23</td>
+                <td>14</td>
+                <td>112</td>
+                <td>12/22/2019</td>
+                <td>$58.98</td>
+              </tr>
+            </table>
+          </fieldset>
+
+          <fieldset >
+            <legend>Table: Sales_Products</legend>
           <table>
             <tr>
-              <th>select</th>
               <th class="pk">saleId</th>
-              <th class="fk">employeeId</th>
-              <th class="fk">customerId</th>
-              <th>transactionDate</th>
-              <th>totalPurchase</th>
+              <th class="pk">productId</th>
+              <th>number(quantity of the product that were part of the sale)</th>
             </tr>
             <tr>
-              <th><input type="checkbox" name="check1"></th>
               <td>1</td>
               <td>14</td>
-              <td>245</td>
-              <td>8/18/2019</td>
-              <td>$47.24</td>
+              <td>2</td>
             </tr>
             <tr>
-              <th><input type="checkbox" name="check2"></th>
+              <td>1</td>
               <td>2</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>1</td>
               <td>5</td>
-              <td>112</td>
-              <td>12/22/2019</td>
-              <td>$58.98</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>2</td>
+              <td>3</td>
             </tr>
           </table>
+        </fieldset>
           <p><button type="delete">Delete Sale</button></p>
         </div>
 

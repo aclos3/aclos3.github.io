@@ -27,6 +27,9 @@
           <label>Product Name:
             <input type ="search" name ="name">
           </label><br><br>
+          <label>productId:
+            <input type ="search" name ="productId">
+          </label><br><br>
   			  <label>Price
             <input type ="search" name ="price">
           </label><br><br>
@@ -40,6 +43,8 @@
       </fieldset>
 
       <div id="results">
+        <fieldset >
+          <legend>Table: Products</legend>
         <table>
           <tr>
             <th>select</th>
@@ -48,13 +53,13 @@
             <th>price</th>
             <th>description</th>
           </tr>
-          <tr>
+         <!-- <tr>
             <th><input type="checkbox" name="check1"></th>
             <td>1</td>
             <td>Yellow Tang</td>
             <td>29.99</td>
             <td>Bright yellow colored, peaceful plant eater that grows to 8 inches.</td>
-          </tr>
+          </tr> -->
           <tr>
             <th><input type="checkbox" name="check2"></th>
             <td>2</td>
@@ -63,7 +68,38 @@
             <td>Dark red with white or yellow vertical stripes, can be agressive towards others, omnivore. Grows to 5 inches.</a></td>
           </tr>
         </table>
-
+      </fieldset>
+      <br>
+      <fieldset >
+        <legend>Table: Sales_Products</legend>
+      <table>
+        <tr>
+          <th class="pk">saleId</th>
+          <th class="pk">productId</th>
+          <th>number(quantity of the product that were part of the sale)</th>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>2</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>2</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>452</td>
+          <td>2</td>
+          <td>7</td>
+        </tr>
+      </table>
+    </fieldset>
         <p><button type="delete">Delete Products</button></p>
       </div>
 
