@@ -29,5 +29,20 @@ function showResults() {
 }
 
 function hideResults() {
-
-}
+  if(document.getElementById("custResults"))
+  {
+    document.getElementById("custResults").innerHTML ="";
+  }
+  else if(document.getElementById("empResults"))
+  {
+    document.getElementById("empResults").innerHTML ="";
+  }
+  else if(document.getElementById("salResults"))
+  {
+    document.getElementById("salResults").innerHTML ="";
+  }
+  else if(document.getElementById("prodResults"))
+  {
+    document.getElementById("prodResults").innerHTML ="";
+  }
+  }

@@ -42,19 +42,19 @@ body {
   width: 1200px;
   margin: auto;
   padding: 10px;
-  height: 500px;
+  height: 385px;
 }
 
 .left {
   width: 50%;
   float: left;
-  height: 500px;
+  height: 385px;
 
 }
 .right {
   width: 50%;
   float: left;
-  height: 500px;
+  height: 385px;
 }
 
 .res {
