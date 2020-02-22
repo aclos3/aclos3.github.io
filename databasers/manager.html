@@ -37,9 +37,8 @@
           <label>Member Since:
             <input type ="date" name ="memberSince">
           </label><br><br>
-
-          <input type="submit" value="Submit">
-
+          <button onclick="confirmCust();return false;">Submit</button>
+            <div id="custTy"></div>
       </fieldset>
 
 <!--EMPLOYEES-->
@@ -51,6 +50,9 @@
   			   <label>Last Name:
              <input type ="text" name ="lastName">
            </label><br><br>
+           <label>Title:
+            <input type ="text" name ="title">
+          </label><br><br>
   			   <label>Shift Start-Time:
              <input type ="time" name ="startTime">
            </label><br><br>
@@ -65,15 +67,8 @@
   					        <option value = "TRUE" selected> Yes</option>
   					        <option value = "FALSE" selected> No</option>
              </select><br><br>
-  			   <label>Store Location:</label>
-            <select name = "classDropDown">
-  					       <option value = "Bend" selected>Bend, OR</option>
-  					       <option value = "Portland" selected>Portland, OR</option>
-  					       <option value = "Vancouver" selected>Vancouver, WA</option>
-  			    </select><br><br>
-
-            <input type="submit" value="Submit">
-
+            <button onclick="confirmEmp();return false;">Submit</button>
+             <div id="empTy"></div>
       </fieldset>
 
 <!--PRODUCTS-->
@@ -87,15 +82,8 @@
           <label>Price
             <input type ="price" name ="price">
           </label><br><br>
-          <label>Description:
-            <input type ="text" name ="description">
-          </label><br><br>
-          <label>Image:
-            <input type ="url" name ="image_url">
-          </label><br><br>
-
-          <input type="submit" value="Submit">
-
+          <button onclick="confirmProd();return false;">Submit</button>
+            <div id="prodTy"></div>
       </fieldset>
 
 <!--SALES-->
@@ -124,15 +112,8 @@
           <label>Purchase Total (including tax):
             <input type ="price" name ="totalPurchase">
           </label><br><br>
-          <label>Store Location: </label>
-            <select name = "classDropDown">
-              <option value = "Bend" selected>Bend, OR</option>
-              <option value = "Portland" selected>Portland, OR</option>
-              <option value = "Vancouver" selected>Vancouver, WA</option>
-            </select>
-
-      <input type="submit" value="Submit">
-
+            <button onclick="confirmSal();return false;">Submit</button>
+              <div id="salTy"></div>
       </fieldset>
 
     </form>
