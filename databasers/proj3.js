@@ -62,3 +62,30 @@ function confirmSal() {
 function confirmProd() {
   document.getElementById("prodTy").innerHTML ="New Product Added!";
 }
+
+function showProds() {
+  var numProds = document.getElementById("numProds").value;
+  var sales_prods_str = "<fieldset>";
+
+  if (numProds > 100)
+  {
+    document.getElementById("salTy").innerHTML="Too many products! The system can only handle 100.";
+  }
+  else{
+    for(i = 0; i < numProds; i++)
+    {
+      sales_prods_str +="<fieldset class=\"sales_prods\"><legend id=\"prod_num\">Product ";
+      sales_prods_str += (i+1);
+      sales_prods_str +=":</legend><p>Sale Id: 45</p><label>productId:<input type =\"number\" name =\"pID\"></label><br><br><label>quantity:<input type =\"number\" name =\"pID\"></label><br><br></fieldset>";
+      
+    }
+    sales_prods_str = sales_prods_str + "<button onclick=\"prodEnt();return false;\">Submit</button><div id=\"sales_prod_ty\"></div>" + "</fieldset>";
+    document.getElementById("sales_prods").innerHTML=sales_prods_str;
+  
+  }
+  
+}
+
+function prodEnt() {
+  document.getElementById("sales_prod_ty").innerHTML="Submission Confirmed";
+}

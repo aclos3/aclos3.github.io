@@ -112,10 +112,13 @@
           <label>Purchase Total (including tax):
             <input type ="price" name ="totalPurchase">
           </label><br><br>
-            <button onclick="confirmSal();return false;">Submit</button>
+          <label>Number of distinct products:
+            <input type ="number" name ="numProds" id="numProds" value="1">
+          </label><br><br>
+            <button onclick="confirmSal();showProds();return false;">Submit</button>
               <div id="salTy"></div>
       </fieldset>
-
+        <div id="sales_prods"></div>
     </form>
     </div>
     <footer>© Tropical Fish Emporium</footer>
