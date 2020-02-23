@@ -16,7 +16,7 @@ function showResults() {
     }
     else if(document.getElementById("empResults"))
     {
-      document.getElementById("empResults").innerHTML ="<table><tr><th>select</th><th class=\"pk\">employeeId</th><th>storeId</th><th>title</th><th>startTime</th><th>stopTime</th><th>hourlyRate</th><th>partTime</th></tr><tr><th><input type=\"checkbox\" name=\"check1\"></th><td>7</td><td>2</td><td>store manager</td><td>8:00am</td><td>5:00pm</td><td>$23</td><td>False</td></tr><tr><th><input type=\"checkbox\" name=\"check2\"></th><td>13</td><td>1</td><td>sales associate</td><td>10:00am</td><td>2:00pm</td><td>$15</td><td>True</td></tr></table><p><button onclick=\"hideResults();\">Delete Employee</button></p>";
+      document.getElementById("empResults").innerHTML ="<table><tr><th>select</th><th class=\"pk\">employeeId</th><th>firstName</th><th>lastName</th><th>storeId</th><th>title</th><th>startTime</th><th>stopTime</th><th>hourlyRate</th><th>partTime</th></tr><tr><th><input type=\"checkbox\" name=\"check1\"></th><td>7</td><td>Bob</td><td>Smith</td><td>2</td><td>store manager</td><td>8:00am</td><td>5:00pm</td><td>$23</td><td>False</td></tr><tr><th><input type=\"checkbox\" name=\"check2\"></th><td>13</td><td>Kelsey</td><td>Rogers</td><td>1</td><td>sales associate</td><td>10:00am</td><td>2:00pm</td><td>$15</td><td>True</td></tr></table><p><button onclick=\"hideResults();\">Delete Employee</button></p>";
     }
     else if(document.getElementById("salResults"))
     {

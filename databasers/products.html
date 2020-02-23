@@ -25,11 +25,11 @@
     <form method = "post">
       <fieldset>
         <legend>Search for a Product:</legend>
-          <label>Product Name:
-            <input type ="search" name ="name">
-          </label><br><br>
           <label>productId:
             <input type ="search" name ="productId">
+          </label><br><br>  
+          <label>Product Name:
+            <input type ="search" name ="name">
           </label><br><br>
   			  <label>Price
             <input type ="search" name ="price">
@@ -39,7 +39,7 @@
           <span class="instr"><--Click me to see some sample data.</span>
 
       </fieldset>
-
+      <button onclick="return false;"">See All</button>  <--See all entries in the Products table
       <div id="prodResults">
         
       </div>
