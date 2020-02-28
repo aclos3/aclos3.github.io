@@ -236,6 +236,12 @@ html, body {
 	float: left;
 	margin: 1.66%;
 }
+
+.panoPhoto {
+	width: 70%;
+	float: left;
+	margin: 1.66%;
+}
 #photoText	{
 	font-family: Verdana, 'Times New Roman', Times, serif;
 	margin-left: 1.66%;
