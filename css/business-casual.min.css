@@ -154,6 +154,10 @@
             right:-.5rem;
             border:.25rem solid rgba(255,255,255,.85)
     }
+
+    #honeyText {
+        color: rgb(114, 80, 192);
+    }
     
     @media (min-width:992px){
         .about-heading .about-heading-img{
