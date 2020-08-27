@@ -272,7 +272,7 @@
 	    year: 2020, // year
 	    month: 8, // month
 	    day: 29, // day
-	    hours: 14, // Default is 0 [0-23] integer
+	    hours: 08, // Default is 0 [0-23] integer
       minutes: 0, // Default is 0 [0-59] integer
       seconds: 0, // Default is 0 [0-59] integer
 		});
