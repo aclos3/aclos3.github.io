@@ -11,14 +11,14 @@ var images = [];  //array to hold photo names/locations.  Will be inserted in to
 //these are the three images I'd like to display on my homepage.
 images[0] = 'images/1.jpg';
 images[1] = 'images/2.jpg';
-images[2] = 'images/3.jpg';
+images[2] = 'images/4.jpg';
 
 //run the script once the document has loaded.
 document.addEventListener('DOMContentLoaded', changeImg);
 
 //function to change the image being displayed
 function changeImg(){
-    document.move.src = images[pIndex];
+    document.move.src = images[2];
 
     if(pIndex + 1 < images.length) {
         pIndex++;
